@@ -1,0 +1,89 @@
+body {
+	font-family: Georgia, serif;
+	color: rgb(50, 50, 50);
+	background-image: url('https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?q=80&fm=jpg&s=fa68c48c66a390579ae96eff13922404');
+	background-size: cover;
+}
+
+
+/* MISC */
+
+a {
+	text-decoration: none;
+	color: rgb(21, 150, 208);
+}
+
+a:hover {
+	border-bottom: 2px solid rgb(21, 150, 208);
+}
+
+em {
+	font-style: italic;
+	color: rgb(8, 72, 101);
+}
+
+
+/* HEADINGS */
+
+h1 {
+	font-family: Gill Sans, sans serif;
+	font-size: 3rem;
+	color: rgb(8, 72, 101);
+	margin: 2rem 0 1rem 0;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	font-family: Gill Sans, sans serif;
+	font-size: 2rem;
+	color: rgb(202, 231, 244);
+	position: relative;
+	left: 27%;
+	top: 32%;
+}
+
+
+/* SECTIONS */
+
+.wrapper {
+	width: 60%;
+	margin: auto;
+}
+
+header {
+	border-bottom: 2px solid rgb(8, 72, 101);
+	margin-bottom: 4rem;
+}
+
+.circle {
+	background-color: rgb(8, 72, 101);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 2rem;
+}
+
+.details {
+	width: 40%;
+	margin-right: 5%;
+	float: left;
+	line-height: 1.5rem;
+}
+
+footer {
+	clear: both;
+	padding: 3rem 0;
+}
+
+footer p {
+	font-size: 1.25rem;
+}
+
+
+
