@@ -1,0 +1,50 @@
+/* Header */
+
+header {
+	background: #202737 url("../img/hero.jpg") no-repeat center center;
+	background-size: cover;
+	height: 302px;
+	overflow: hidden;
+}
+
+header h1,
+header p {
+	text-shadow: 0 0 5px #333;
+}
+
+
+/* =Navigation */
+
+.topnav {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 87.174349%;
+}
+
+.top-logo {
+	float: left;
+	width: 46px;
+}
+
+.topnav ul {
+	float: right;
+	margin: 14px 0 14px 0;
+	padding: 0;
+}
+
+.topnav ul li {
+	display: inline-block;
+	height: 18px;
+	margin-right: 20px;
+}
+
+.search:before {
+	content: url("../img/search.png");
+	padding-right: 3px;
+	vertical-align: middle;
+}
+
+.topnav ul li:last-child {
+	margin-right: 0;
+}
+

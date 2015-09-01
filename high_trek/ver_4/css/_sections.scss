@@ -1,0 +1,174 @@
+/* =Sections */
+
+.content {
+	box-sizing: border-box;
+	margin: 0 auto 38px auto;
+	overflow: hidden;
+	padding-top: 23px;
+	width: 87.174349%;
+}
+
+.post-title {
+	color: #202737;
+	overflow: hidden;
+}
+
+.avatar.sm {
+	float: left;
+	margin-right: 10px;
+	width: 32px;
+}
+
+.avatar img {
+	border-radius: 50%;
+}
+
+.post-data {
+	float: left;
+	font-size: 0.85rem;
+	margin: 10px 0 44px 0;
+}
+
+p {
+	clear: both;
+	color: #534f4c;
+	line-height: 1.75rem;
+	margin-top: 49px;
+}
+
+.ig-img {
+	float: left;
+	margin-bottom: 38px;
+	margin-top: 28px;
+	width: 49%;
+}
+
+.ig-img.left {
+	margin-right: 2%;
+}
+
+.post {
+	clear: both;
+}
+
+blockquote {
+	border-left: 1px solid #534f4c;
+	color: #847766;
+	padding-left: 33px;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	line-height: 1.7em;
+	margin: 40px 0;
+}
+
+.bio {
+	border-top: 1px solid #534f4c;
+	margin-top: 45px;
+	padding-top: 48px;
+}
+
+.avatar.big {
+	margin: 0 auto;
+	width: 150px;
+}
+
+.bio p {
+	font-style: italic;
+	height: 15px;
+	line-height: 0.85em;
+	margin: 9px 0 0 0;
+	text-align: center;
+}
+
+.social {
+	border-bottom: 1px solid #534f4c;
+	margin-top: 42px;
+	padding-bottom: 35px;
+}
+
+.social h3 {
+	margin: 0;
+	padding: 20px 0;
+}
+
+.social a {
+	display: block;
+	font-size: 1.35rem;
+	margin-bottom: 6px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.social a:hover {
+	border-bottom: 0;
+}
+
+#fb {
+	background-color: #3c5a9a;
+}
+
+#fb:hover {
+	background-color: #5077cc;
+}
+
+#ig {
+	background-color: #3e729a;
+}
+
+#ig:hover {
+	background-color: #5297cc;
+}
+
+#tw {
+	background-color: #55aded;
+}
+
+#tw:hover {
+	background-color: #5cceff;
+}
+
+.social a:last-child {
+	margin-bottom: 0;
+}
+
+.featured {
+	margin: 40px 0;
+}
+
+h1.article-link {
+	height: 217px;
+	margin: 0 0 30px 0;
+	padding: 9.2% 18% 0 9.6%;
+	text-align: left;
+}
+
+h1.article-link a {
+	font-size: 3.35rem;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+}
+
+h1.article-link a:hover {
+	border-bottom: 0;
+}
+
+#gardening {
+	background: #202737 url("../img/bluberries.jpg") no-repeat center center;
+}
+
+#tech {
+	background: #202737 url("../img/san_francisco.jpg") no-repeat center center;
+}
+
+#lost {
+	background: #202737 url("../img/woods.jpg") no-repeat center center;
+}
+
+#gardening,
+#tech,
+#lost {
+	background-size: cover;
+}
+
