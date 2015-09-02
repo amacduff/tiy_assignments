@@ -1,19 +1,19 @@
-/* =Global Styles */
+/* Variables */
+/* Global Styles */
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 
 a {
-  color: white;
+  color: #ffffff;
   font-weight: 100;
   letter-spacing: 0.03em;
   padding-bottom: 5px;
   text-decoration: none;
 }
-
-a:hover {
-  border-bottom: 1px solid white;
+a a:hover {
+  border-bottom: 1px solid #ffffff;
 }
 
 img {
@@ -30,7 +30,7 @@ header {
 
 header h1,
 header p {
-  text-shadow: 0 0 5px #333;
+  text-shadow: 0 0 5px #333333;
 }
 
 /* =Navigation */
@@ -67,7 +67,7 @@ header p {
   margin-right: 0;
 }
 
-/* =Headings */
+/* Headings */
 h1,
 header p {
   color: white;
@@ -117,7 +117,7 @@ header p {
   margin-top: 0.5rem;
 }
 
-/* =Sections */
+/* Sections */
 .content {
   box-sizing: border-box;
   margin: 0 auto 38px auto;
@@ -228,7 +228,7 @@ blockquote {
 }
 
 #fb:hover {
-  background-color: #5077cc;
+  background-color: #4f71ba;
 }
 
 #ig {
@@ -236,7 +236,7 @@ blockquote {
 }
 
 #ig:hover {
-  background-color: #5297cc;
+  background-color: #528cb9;
 }
 
 #tw {
@@ -244,7 +244,7 @@ blockquote {
 }
 
 #tw:hover {
-  background-color: #5cceff;
+  background-color: #83c3f2;
 }
 
 .social a:last-child {
@@ -290,7 +290,7 @@ h1.article-link a:hover {
   background-size: cover;
 }
 
-/* =Footer */
+/* Footer */
 footer {
   background-color: #373e46;
   clear: both;
@@ -336,7 +336,7 @@ footer {
   border: 0;
 }
 
-/* =Contact */
+/* Contact */
 form p {
   font-style: italic;
   margin: 0 0 2rem 0;
@@ -387,7 +387,7 @@ form button:hover {
   color: white;
 }
 
-/* =Media Queries */
+/* Media Queries */
 @media screen and (min-width: 620px) {
   .bio {
     border-top: 0;

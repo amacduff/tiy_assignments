@@ -1,4 +1,4 @@
-/* =Headings */
+/* Headings */
 
 h1,
 header p {
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-	color: #202737;
+	color: $primary-color;
 	font-size: 1.75rem;
 	font-weight: 300;
 	line-height: 2.5rem;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-	color: #534f4c;
+	color: $secondary-color;
 	font-size: 1.35rem;
 	font-weight: 300;
 	height: 15px;
@@ -34,7 +34,7 @@ h3 {
 }
 
 h4 {
-	color: #9c9d9f;
+	color: $tertiary-color;
 	font-weight: 300;
 	line-height: 0.75rem;
 	margin: 0;

@@ -1,7 +1,7 @@
 /* Header */
 
 header {
-	background: #202737 url("../img/hero.jpg") no-repeat center center;
+	background: $primary-color url("../img/hero.jpg") no-repeat center center;
 	background-size: cover;
 	height: 302px;
 	overflow: hidden;
@@ -9,7 +9,7 @@ header {
 
 header h1,
 header p {
-	text-shadow: 0 0 5px #333;
+	text-shadow: 0 0 5px $dark-color;
 }
 
 

@@ -1,4 +1,4 @@
-/* =Contact */
+/* Contact */
 
 form p {
 	font-style: italic;
@@ -6,7 +6,7 @@ form p {
 }
 
 form label {
-	color: #534f4c;
+	color: $secondary-color;
 	font-size: 1.35rem;
 	font-weight: 300;
 	padding: 2rem 0 0.5rem 0;
@@ -20,7 +20,7 @@ form label {
 form input,
 textarea {
 	background-color: #eee;
-	border: 1px solid #9c9d9f;
+	border: 1px solid $tertiary-color;
 	min-width: 20rem;
 	padding: 10px;
 	width: 60%;
@@ -37,8 +37,8 @@ textarea:focus {
 
 form button {
 	background-color: white;
-	border: 1px solid #202737;
-	color: #202737;
+	border: 1px solid $primary-color;
+	color: $primary-color;
 	display: block;
 	margin-top: 2rem;
 	padding: 10px;
@@ -46,7 +46,7 @@ form button {
 }
 
 form button:hover {
-	background-color: #202737;
+	background-color: $primary-color;
 	color: white;
 }
 

@@ -1,20 +1,21 @@
-/* =Global Styles */
+/* Global Styles */
 
 body {
-	font-family: "Lato", sans-serif;
+	font-family: $font-main;
 	font-weight: 300;
 }
 
 a {
-	color: white;
+	color: $light-color;
 	font-weight: 100;
 	letter-spacing: 0.03em;
 	padding-bottom: 5px;
 	text-decoration: none;
-}
 
-a:hover {
-	border-bottom: 1px solid white;
+	a:hover {
+		border-bottom: 1px solid $light-color;
+	}
+
 }
 
 img {

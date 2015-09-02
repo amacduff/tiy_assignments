@@ -1,4 +1,4 @@
-/* =Sections */
+/* Sections */
 
 .content {
 	box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 
 .post-title {
-	color: #202737;
+	color: $primary-color;
 	overflow: hidden;
 }
 
@@ -31,7 +31,7 @@
 
 p {
 	clear: both;
-	color: #534f4c;
+	color: $secondary-color;
 	line-height: 1.75rem;
 	margin-top: 49px;
 }
@@ -52,8 +52,8 @@ p {
 }
 
 blockquote {
-	border-left: 1px solid #534f4c;
-	color: #847766;
+	border-left: 1px solid $secondary-color;
+	color: $accent-color;
 	padding-left: 33px;
 	font-size: 1.5rem;
 	font-style: italic;
@@ -64,7 +64,7 @@ blockquote {
 }
 
 .bio {
-	border-top: 1px solid #534f4c;
+	border-top: 1px solid $secondary-color;
 	margin-top: 45px;
 	padding-top: 48px;
 }
@@ -83,7 +83,7 @@ blockquote {
 }
 
 .social {
-	border-bottom: 1px solid #534f4c;
+	border-bottom: 1px solid $secondary-color;
 	margin-top: 42px;
 	padding-bottom: 35px;
 }
@@ -106,27 +106,27 @@ blockquote {
 }
 
 #fb {
-	background-color: #3c5a9a;
+	background-color: $facebook-color;
 }
 
 #fb:hover {
-	background-color: #5077cc;
+	background-color: lighten($facebook-color, 10%);
 }
 
 #ig {
-	background-color: #3e729a;
+	background-color: $instagram-color;
 }
 
 #ig:hover {
-	background-color: #5297cc;
+	background-color: lighten($instagram-color, 10%);
 }
 
 #tw {
-	background-color: #55aded;
+	background-color: $twitter-color;
 }
 
 #tw:hover {
-	background-color: #5cceff;
+	background-color: lighten($twitter-color, 10%);
 }
 
 .social a:last-child {
@@ -155,15 +155,15 @@ h1.article-link a:hover {
 }
 
 #gardening {
-	background: #202737 url("../img/bluberries.jpg") no-repeat center center;
+	background: $primary-color url("../img/bluberries.jpg") no-repeat center center;
 }
 
 #tech {
-	background: #202737 url("../img/san_francisco.jpg") no-repeat center center;
+	background: $primary-color url("../img/san_francisco.jpg") no-repeat center center;
 }
 
 #lost {
-	background: #202737 url("../img/woods.jpg") no-repeat center center;
+	background: $primary-color url("../img/woods.jpg") no-repeat center center;
 }
 
 #gardening,
