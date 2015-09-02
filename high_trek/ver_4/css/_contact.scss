@@ -32,11 +32,11 @@ textarea {
 
 form input:focus,
 textarea:focus {
-	background-color: white;
+	background-color: $light-color;
 }
 
 form button {
-	background-color: white;
+	background-color: $light-color;
 	border: 1px solid $primary-color;
 	color: $primary-color;
 	display: block;
@@ -47,6 +47,6 @@ form button {
 
 form button:hover {
 	background-color: $primary-color;
-	color: white;
+	color: $light-color;
 }
 

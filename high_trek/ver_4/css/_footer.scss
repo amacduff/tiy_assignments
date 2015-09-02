@@ -19,7 +19,7 @@ footer {
 }
 
 .copy p {
-	color: white;
+	color: $light-color;
 	margin: 13px 0 0 0;
 	text-align: center;
 }
@@ -35,7 +35,7 @@ footer {
 }
 
 .bottomnav ul li {
-	border-right: 1px solid white;
+	border-right: 1px solid $light-color;
 	display: inline-block;
 	list-style-type: none;
 	padding: 0 13px;

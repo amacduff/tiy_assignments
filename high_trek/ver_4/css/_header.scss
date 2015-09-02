@@ -5,13 +5,13 @@ header {
 	background-size: cover;
 	height: 302px;
 	overflow: hidden;
-}
 
-header h1,
-header p {
-	text-shadow: 0 0 5px $dark-color;
-}
+	& h1,
+	& p {
+		text-shadow: 0 0 5px $dark-color;
+	}
 
+}
 
 /* =Navigation */
 
@@ -19,6 +19,25 @@ header p {
 	margin: 10px auto;
 	overflow: hidden;
 	width: 87.174349%;
+	
+	& ul {
+		float: right;
+		margin: 14px 0 14px 0;
+		padding: 0;
+
+		& li {
+			display: inline-block;
+			height: 18px;
+			margin-right: 20px;
+			
+			.topnav ul li:last-child {
+				margin-right: 0;
+			}
+
+		}
+
+	}
+
 }
 
 .top-logo {
@@ -26,17 +45,7 @@ header p {
 	width: 46px;
 }
 
-.topnav ul {
-	float: right;
-	margin: 14px 0 14px 0;
-	padding: 0;
-}
 
-.topnav ul li {
-	display: inline-block;
-	height: 18px;
-	margin-right: 20px;
-}
 
 .search:before {
 	content: url("../img/search.png");
@@ -44,7 +53,5 @@ header p {
 	vertical-align: middle;
 }
 
-.topnav ul li:last-child {
-	margin-right: 0;
-}
+
 

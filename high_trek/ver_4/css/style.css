@@ -12,7 +12,7 @@ a {
   padding-bottom: 5px;
   text-decoration: none;
 }
-a a:hover {
+a:hover {
   border-bottom: 1px solid #ffffff;
 }
 
@@ -27,9 +27,7 @@ header {
   height: 302px;
   overflow: hidden;
 }
-
-header h1,
-header p {
+header h1, header p {
   text-shadow: 0 0 5px #333333;
 }
 
@@ -39,22 +37,23 @@ header p {
   overflow: hidden;
   width: 87.174349%;
 }
-
-.top-logo {
-  float: left;
-  width: 46px;
-}
-
 .topnav ul {
   float: right;
   margin: 14px 0 14px 0;
   padding: 0;
 }
-
 .topnav ul li {
   display: inline-block;
   height: 18px;
   margin-right: 20px;
+}
+.topnav ul li .topnav ul li:last-child {
+  margin-right: 0;
+}
+
+.top-logo {
+  float: left;
+  width: 46px;
 }
 
 .search:before {
@@ -63,14 +62,10 @@ header p {
   vertical-align: middle;
 }
 
-.topnav ul li:last-child {
-  margin-right: 0;
-}
-
 /* Headings */
 h1,
 header p {
-  color: white;
+  color: #ffffff;
   margin: 0 auto 0 auto;
   max-width: 82%;
   text-align: center;
@@ -160,7 +155,6 @@ p {
   margin-top: 28px;
   width: 49%;
 }
-
 .ig-img.left {
   margin-right: 2%;
 }
@@ -205,12 +199,10 @@ blockquote {
   margin-top: 42px;
   padding-bottom: 35px;
 }
-
 .social h3 {
   margin: 0;
   padding: 20px 0;
 }
-
 .social a {
   display: block;
   font-size: 1.35rem;
@@ -218,7 +210,6 @@ blockquote {
   padding: 15px 0;
   text-align: center;
 }
-
 .social a:hover {
   border-bottom: 0;
 }
@@ -226,7 +217,6 @@ blockquote {
 #fb {
   background-color: #3c5a9a;
 }
-
 #fb:hover {
   background-color: #4f71ba;
 }
@@ -234,7 +224,6 @@ blockquote {
 #ig {
   background-color: #3e729a;
 }
-
 #ig:hover {
   background-color: #528cb9;
 }
@@ -242,7 +231,6 @@ blockquote {
 #tw {
   background-color: #55aded;
 }
-
 #tw:hover {
   background-color: #83c3f2;
 }
@@ -310,7 +298,7 @@ footer {
 }
 
 .copy p {
-  color: white;
+  color: #ffffff;
   margin: 13px 0 0 0;
   text-align: center;
 }
@@ -326,7 +314,7 @@ footer {
 }
 
 .bottomnav ul li {
-  border-right: 1px solid white;
+  border-right: 1px solid #ffffff;
   display: inline-block;
   list-style-type: none;
   padding: 0 13px;
@@ -369,11 +357,11 @@ textarea {
 
 form input:focus,
 textarea:focus {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 form button {
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #202737;
   color: #202737;
   display: block;
@@ -384,7 +372,7 @@ form button {
 
 form button:hover {
   background-color: #202737;
-  color: white;
+  color: #ffffff;
 }
 
 /* Media Queries */
