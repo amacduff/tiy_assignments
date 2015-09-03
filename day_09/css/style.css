@@ -1,11 +1,41 @@
 /* Global Styles */
 body {
+  font-family: sans-serif;
   font-size: 100%;
 }
 
-p {
-  font-size: 16px;
-  font-size: 1rem;
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  background-color: #f6f7fa;
+  border-bottom: 1px solid #eff0f3;
+  overflow: hidden;
+}
+
+#topnav,
+.icons {
+  margin: 1rem;
+}
+#topnav ul li,
+.icons ul li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+#topnav ul li:last-child,
+.icons ul li:last-child {
+  margin-right: 0;
+}
+
+#topnav {
+  float: left;
+}
+
+.icons {
+  float: right;
 }
 
 /*# sourceMappingURL=style.css.map */

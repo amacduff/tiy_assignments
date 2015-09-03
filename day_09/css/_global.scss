@@ -1,10 +1,11 @@
 /* Global Styles */
 
 body {
+	font-family: sans-serif;
 	font-size: 100%;
 }
 
-p {
-	@include fntz(1)
+img {
+	max-width: 100%;
 }
 
