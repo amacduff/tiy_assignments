@@ -1,8 +1,30 @@
 /* Header */
 
+.topbar {
+	float: left;
+	width: 25%;
+}
+
+#one {
+	border-top: 2px solid #b3dcbe;
+}
+
+#two {
+	border-top: 2px solid #84c4c1;
+}
+
+#three {
+	border-top: 2px solid #d55968;
+}
+
+#four {
+	border-top: 2px solid #edbf62;
+}
+
 header {
 	background-color: #f6f7fa;
 	border-bottom: 1px solid #eff0f3;
+	clear: both;
 	overflow: hidden;
 }
 

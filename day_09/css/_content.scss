@@ -1,8 +1,8 @@
 /* Content */
 
-section {
-	box-sizing: border-box;
-	padding: 1.25rem;
+h2 {
+	padding: 1.25rem 0 0 1.25rem;
+	width: 50%;
 }
 
 .photo {
@@ -13,6 +13,7 @@ section {
 }
 
 #lovebug {
-	background-image: #333 url("../img/love_bug.jpg") no-repeat center center;
+	background: #333 url("../img/love_bug.jpg") no-repeat center center;
+	background-size: cover;
 }
 
