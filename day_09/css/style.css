@@ -38,4 +38,21 @@ header {
   float: right;
 }
 
+/* Content */
+section {
+  box-sizing: border-box;
+  padding: 1.25rem;
+}
+
+.photo {
+  display: block;
+  float: right;
+  overflow: hidden;
+  width: 5rem;
+}
+
+#lovebug {
+  background-image: #333 url("../img/love_bug.jpg") no-repeat center center;
+}
+
 /*# sourceMappingURL=style.css.map */
