@@ -1,6 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+#lovebug, #blocks, #cartoon, #instagram, #google, #jcrew, #tumblr {
+  background-position: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 5rem;
+}
+
 /* Global Styles */
 body {
-  font-family: sans-serif;
+  background-color: #f4f4f6;
+  color: #313131;
+  font-family: "Lato", sans-serif;
   font-size: 100%;
 }
 
@@ -8,43 +19,62 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: #999999;
+  text-decoration: none;
+  transition: color 0.1s linear;
+}
+a:hover {
+  color: #50bcb6;
+}
+
+::-moz-selection {
+  background: #cfeceb;
+}
+
+::selection {
+  background: #cfeceb;
+}
+
+/* Headings */
 /* Header */
 .topbar {
   float: left;
+  height: 0.125rem;
   width: 25%;
 }
 
 #one {
-  border-top: 2px solid #b3dcbe;
+  background-color: #afecc3;
 }
 
 #two {
-  border-top: 2px solid #84c4c1;
+  background-color: #84c3c0;
 }
 
 #three {
-  border-top: 2px solid #d55968;
+  background-color: #d45a68;
 }
 
 #four {
-  border-top: 2px solid #edbf62;
+  background-color: #ecbf63;
 }
 
 header {
-  background-color: #f6f7fa;
-  border-bottom: 1px solid #eff0f3;
   clear: both;
   overflow: hidden;
 }
 
 #topnav,
 .icons {
-  margin: 1rem;
+  margin: 0.9rem;
 }
 #topnav ul li,
 .icons ul li {
   display: inline-block;
-  margin-right: 0.5rem;
+  font-size: 15.2px;
+  font-size: 0.95rem;
+  font-weight: 700;
   vertical-align: middle;
 }
 #topnav ul li:last-child,
@@ -60,22 +90,83 @@ header {
   float: right;
 }
 
-/* Content */
-h2 {
-  padding: 1.25rem 0 0 1.25rem;
-  width: 50%;
+#topnav ul li {
+  margin-right: 0.5rem;
 }
 
-.photo {
-  display: block;
-  float: right;
+.icons ul li {
+  margin-right: 2rem;
+}
+
+/* Content */
+section {
+  background-color: #ffffff;
+  border-top: 1px solid #dcdce0;
   overflow: hidden;
-  width: 5rem;
+  position: relative;
+}
+
+h2 {
+  float: left;
+  font-size: 15.2px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  padding: 1rem 0 0 1.25rem;
+  width: 70%;
+}
+h2 a {
+  color: #313131;
+}
+
+h3 {
+  clear: left;
+  color: #999999;
+  font-size: 11.2px;
+  font-size: 0.7rem;
+  padding: 0.5rem 0 0 1.25rem;
 }
 
 #lovebug {
-  background: #333 url("../img/love_bug.jpg") no-repeat center center;
+  background: #f4f4f6 url("../img/love_bug.jpg") 0 0 no-repeat;
   background-size: cover;
+}
+
+#blocks {
+  background: #f4f4f6 url("../img/tile_fallback@1x.jpg") 0 0 no-repeat;
+}
+
+#cartoon {
+  background: #f4f4f6 url("../img/cartoon.jpeg") 0 0 no-repeat;
+  background-size: cover;
+}
+
+#instagram {
+  background: #f4f4f6 url("../img/instagram.jpg") 0 0 no-repeat;
+  background-size: cover;
+}
+
+#google {
+  background: #f4f4f6 url("../img/google.jpg") 0 0 no-repeat;
+  background-size: cover;
+}
+
+#jcrew {
+  background: #f4f4f6 url("../img/jcrew.jpg") 0 0 no-repeat;
+  background-size: cover;
+}
+
+#tumblr {
+  background: #f4f4f6 url("../img/tumblr.jpg") 0 0 no-repeat;
+  background-size: cover;
+}
+
+.buttons {
+  padding: 0.5rem 1.25rem;
+  visibility: hidden;
+}
+.buttons li {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

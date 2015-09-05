@@ -1,19 +1,85 @@
 /* Content */
 
-h2 {
-	padding: 1.25rem 0 0 1.25rem;
-	width: 50%;
+section {
+	background-color: $color-section;
+	border-top: 1px solid $color-border;
+	overflow: hidden;
+	position: relative;
 }
 
-.photo {
-	display: block;
-	float: right;
-	overflow: hidden;
-	width: 5rem;
+h2 {
+	float: left;
+	font: {
+		@include fntz(0.95);
+		weight: 700;
+	}
+	line-height: 1.25rem;
+	padding: 1rem 0 0 1.25rem;
+	width: 70%;
+
+	a {
+		color: $color-primary;
+	}
+
+}
+
+h3 {
+	clear: left;
+	color: $color-secondary;
+	font: {
+		@include fntz(0.7);
+	}
+	padding: 0.5rem 0 0 1.25rem;
 }
 
 #lovebug {
-	background: #333 url("../img/love_bug.jpg") no-repeat center center;
+	background: $color-background url("../img/love_bug.jpg") 0 0 no-repeat;
 	background-size: cover;
+	@extend %ghost-image;
+}
+
+#blocks {
+	background: $color-background url("../img/tile_fallback@1x.jpg") 0 0 no-repeat;
+	@extend %ghost-image;
+}
+
+#cartoon {
+	background: $color-background url("../img/cartoon.jpeg") 0 0 no-repeat;
+	background-size: cover;
+	@extend %ghost-image;
+}
+
+#instagram {
+	background: $color-background url("../img/instagram.jpg") 0 0 no-repeat;
+	background-size: cover;
+	@extend %ghost-image;
+}
+
+#google {
+	background: $color-background url("../img/google.jpg") 0 0 no-repeat;
+	background-size: cover;
+	@extend %ghost-image;
+}
+
+#jcrew {
+	background: $color-background url("../img/jcrew.jpg") 0 0 no-repeat;
+	background-size: cover;
+	@extend %ghost-image;
+}
+
+#tumblr {
+	background: $color-background url("../img/tumblr.jpg") 0 0 no-repeat;
+	background-size: cover;
+	@extend %ghost-image;
+}
+
+.buttons {
+	padding: 0.5rem 1.25rem;
+	visibility: hidden;
+
+	li {
+		display: inline-block;
+	}
+
 }
 

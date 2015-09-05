@@ -1,0 +1,25 @@
+// Colors
+
+$color-accent: #50bcb6;
+$color-background: #f4f4f6;
+$color-border: #dcdce0;
+$color-primary: #313131;
+$color-secondary: #999999;
+$color-section: #ffffff;
+
+$color-selection: #cfeceb;
+
+
+// Typography
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+$font-main: "Lato", sans-serif;
+
+%ghost-image {
+	background-position: 50%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	width: 5rem;
+}

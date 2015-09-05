@@ -2,39 +2,41 @@
 
 .topbar {
 	float: left;
+	height: 0.125rem;
 	width: 25%;
 }
 
 #one {
-	border-top: 2px solid #b3dcbe;
+	background-color: #afecc3;
 }
 
 #two {
-	border-top: 2px solid #84c4c1;
+	background-color: #84c3c0;
 }
 
 #three {
-	border-top: 2px solid #d55968;
+	background-color: #d45a68;
 }
 
 #four {
-	border-top: 2px solid #edbf62;
+	background-color: #ecbf63;
 }
 
 header {
-	background-color: #f6f7fa;
-	border-bottom: 1px solid #eff0f3;
 	clear: both;
 	overflow: hidden;
 }
 
 #topnav,
 .icons {
-	margin: 1rem;
+	margin: 0.9rem;
 
 	ul li {
 		display: inline-block;
-		margin-right: 0.5rem;
+		font: {
+			@include fntz(0.95);
+			weight: 700;
+		}
 		vertical-align: middle;
 
 		&:last-child {
@@ -49,5 +51,13 @@ header {
 
 .icons {
 	float: right;
+}
+
+#topnav ul li {
+	margin-right: 0.5rem;
+}
+
+.icons ul li {
+	margin-right: 2rem;
 }
 
