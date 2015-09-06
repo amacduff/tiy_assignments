@@ -99,6 +99,10 @@ header {
 }
 
 /* Content */
+main {
+  overflow: hidden;
+}
+
 section {
   background-color: #ffffff;
   border-top: 1px solid #dcdce0;
@@ -125,6 +129,13 @@ h3 {
   font-size: 11.2px;
   font-size: 0.7rem;
   padding: 0.5rem 0 0 1.25rem;
+}
+
+.favicon {
+  height: 1rem;
+  padding-right: 0.5rem;
+  vertical-align: middle;
+  display: none;
 }
 
 #lovebug {
@@ -167,6 +178,63 @@ h3 {
 }
 .buttons li {
   display: inline-block;
+}
+
+/* Media Queries */
+@media screen and (min-width: 401px) {
+  header {
+    border-bottom: 1px solid #dcdce0;
+  }
+
+  main {
+    box-sizing: border-box;
+    padding: 3% 4%;
+  }
+
+  .col {
+    border: 1px solid #dcdce0;
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    box-sizing: border-box;
+    height: 17.5rem;
+    margin-bottom: 4%;
+  }
+  .col:nth-child(even) {
+    margin-right: 0;
+  }
+
+  h2 {
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    padding: 0.75rem;
+    width: 100%;
+  }
+
+  h3 {
+    padding: 0.75rem 0 0 0.75rem;
+  }
+
+  #lovebug,
+  #blocks,
+  #cartoon,
+  #instagram,
+  #google,
+  #jcrew,
+  #tumblr {
+    clear: both;
+    display: block;
+    height: 8.438rem;
+    position: static;
+    right: auto;
+    top: auto;
+    width: auto;
+  }
+
+  .favicon {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

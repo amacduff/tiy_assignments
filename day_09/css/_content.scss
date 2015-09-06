@@ -1,5 +1,9 @@
 /* Content */
 
+main {
+	overflow: hidden;
+}
+
 section {
 	background-color: $color-section;
 	border-top: 1px solid $color-border;
@@ -30,6 +34,13 @@ h3 {
 		@include fntz(0.7);
 	}
 	padding: 0.5rem 0 0 1.25rem;
+}
+
+.favicon {
+	height: 1rem;
+	padding-right: 0.5rem;
+	vertical-align: middle;
+	display: none;
 }
 
 #lovebug {

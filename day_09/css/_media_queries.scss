@@ -1,0 +1,60 @@
+/* Media Queries */
+
+@media screen and (min-width: 401px) {
+
+	header {
+		border-bottom: 1px solid $color-border;
+	}
+
+	main {
+		box-sizing: border-box;
+		padding: 3% 4%;
+	}
+
+	.col {
+		border: 1px solid $color-border;
+		@include grid(6);
+		box-sizing: border-box;
+		height: 17.5rem;
+		margin-bottom: 4%;
+
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+
+	}
+
+	h2 {
+		font: {
+			@include fntz(1.1);
+		}
+		line-height: 1.4rem;
+		padding: 0.75rem;
+		width: 100%;
+	}
+
+	h3 {
+		padding: 0.75rem 0 0 0.75rem;
+	}
+
+	#lovebug,
+	#blocks,
+	#cartoon,
+	#instagram,
+	#google,
+	#jcrew,
+	#tumblr {
+		clear: both;
+		display: block;
+		height: 8.438rem;
+		position: static;
+		right: auto;
+		top: auto;
+		width: auto;
+	}
+
+	.favicon {
+		display: inline-block;
+	}
+
+}
