@@ -4,6 +4,31 @@ main {
 	overflow: hidden;
 }
 
+.listname,
+.edit {
+	@include grid(6);
+	display: none;
+}
+
+.listname {
+	padding: 0.25rem 0 1.35rem 0;
+}
+
+.edit {
+	margin-right: 0;
+	padding-top: 1.25rem;
+	text-align: right;
+
+	ul li {
+		display: inline-block;
+		margin-right: 1.15rem;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
 section {
 	background-color: $color-section;
 	border-top: 1px solid $color-border;
@@ -34,6 +59,11 @@ h3 {
 		@include fntz(0.7);
 	}
 	padding: 0.5rem 0 0 1.25rem;
+
+	a {
+		color: $color-secondary;
+	}
+
 }
 
 .favicon {

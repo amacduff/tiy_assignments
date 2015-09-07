@@ -14,13 +14,20 @@ img {
 }
 
 a {
-	color: $color-secondary;
+	color: $color-primary;
+	padding: 0.85rem 0;
 	text-decoration: none;
 	transition: color 0.1s linear;
 
 	&:hover {
 		color: $color-accent;
 	}
+
+	&.selected {
+		color: $color-accent;
+		border-bottom: 2px solid $color-accent;
+	}
+
 }
 
 ::-moz-selection {

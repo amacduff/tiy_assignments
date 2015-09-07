@@ -3,7 +3,31 @@
 @media screen and (min-width: 401px) {
 
 	header {
-		border-bottom: 1px solid $color-border;
+		border-bottom: 1px solid $color-border-shadow;
+	}
+
+	#topnav_sm {
+		display: none;
+	}
+
+	#topnav_lg {
+		display: inline-block;
+	}
+
+	#topnav_lg ul li {
+		margin-right: 1.75rem;
+
+		&:last-child {
+			margin: 0 0 0 1.75rem;
+		}
+	}
+
+	.icons_sm {
+		display: none;
+	}
+
+	.icons_lg {
+		display: inline-block;
 	}
 
 	main {
@@ -11,9 +35,15 @@
 		padding: 3% 4%;
 	}
 
+	.listname,
+	.edit {
+		display: block;
+	}
+
 	.col {
 		@include grid(6);
 		border: 1px solid $color-border;
+		border-bottom: 1px solid $color-border-shadow;
 		box-sizing: border-box;
 		height: 17.5rem;
 		margin-bottom: 4%;
@@ -68,3 +98,10 @@
 	}
 
 }
+
+@media screen and (min-width: 671px) {
+
+	
+
+}
+

@@ -1,1 +1,8 @@
 /* Headings */
+
+h1 {
+	font: {
+		@include fntz(2.25);
+		weight: 300;
+	}
+}

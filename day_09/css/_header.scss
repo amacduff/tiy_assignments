@@ -27,9 +27,10 @@ header {
 	overflow: hidden;
 }
 
-#topnav,
-.icons {
-	margin: 0.9rem;
+#topnav_sm,
+#topnav_lg,
+.icons_sm {
+	padding: 0.9rem;
 
 	ul li {
 		display: inline-block;
@@ -45,19 +46,45 @@ header {
 	}
 }
 
-#topnav {
+#topnav_sm,
+#topnav_lg {
 	float: left;
 }
 
-.icons {
+#topnav_lg {
+	display: none;
+}
+
+.icons_sm,
+.icons_lg {
 	float: right;
 }
 
-#topnav ul li {
+#topnav_sm ul li {
 	margin-right: 0.5rem;
 }
 
-.icons ul li {
+.icons_sm ul li {
 	margin-right: 2rem;
+}
+
+.icons_lg {
+	display: none;
+}
+
+.icons_lg ul li {
+	display: inline-block;
+	font: {
+		@include fntz(0.95);
+		weight: 400;
+	}
+	padding: 1rem 0.6rem 1.1rem 0.6rem;
+	vertical-align: middle;
+
+	&:last-child {
+		border-left: 1px solid $color-border-shadow;
+		margin-left: 0.75rem;
+		padding: 1rem 1.25rem 1.1rem 1.25rem;
+	}
 }
 
