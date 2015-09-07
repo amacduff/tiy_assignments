@@ -192,10 +192,10 @@ h3 {
   }
 
   .col {
-    border: 1px solid #dcdce0;
     float: left;
     width: 48%;
     margin-right: 4%;
+    border: 1px solid #dcdce0;
     box-sizing: border-box;
     height: 17.5rem;
     margin-bottom: 4%;
@@ -207,13 +207,19 @@ h3 {
   h2 {
     font-size: 17.6px;
     font-size: 1.1rem;
+    float: none;
     line-height: 1.4rem;
     padding: 0.75rem;
-    width: 100%;
+    width: auto;
   }
 
   h3 {
-    padding: 0.75rem 0 0 0.75rem;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    padding: 0.75rem 0 0.75rem 0.75rem;
+    position: absolute;
+    width: 100%;
   }
 
   #lovebug,
@@ -225,8 +231,9 @@ h3 {
   #tumblr {
     clear: both;
     display: block;
-    height: 8.438rem;
-    position: static;
+    min-height: 8.438rem;
+    max-height: 12.5rem;
+    position: relative;
     right: auto;
     top: auto;
     width: auto;

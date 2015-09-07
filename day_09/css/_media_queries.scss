@@ -12,8 +12,8 @@
 	}
 
 	.col {
-		border: 1px solid $color-border;
 		@include grid(6);
+		border: 1px solid $color-border;
 		box-sizing: border-box;
 		height: 17.5rem;
 		margin-bottom: 4%;
@@ -28,13 +28,19 @@
 		font: {
 			@include fntz(1.1);
 		}
+		float: none;
 		line-height: 1.4rem;
 		padding: 0.75rem;
-		width: 100%;
+		width: auto;
 	}
 
 	h3 {
-		padding: 0.75rem 0 0 0.75rem;
+		background-color: $color-section;
+		bottom: 0;
+		left: 0;
+		padding: 0.75rem 0 0.75rem 0.75rem;
+		position: absolute;
+		width: 100%;
 	}
 
 	#lovebug,
@@ -46,8 +52,12 @@
 	#tumblr {
 		clear: both;
 		display: block;
-		height: 8.438rem;
-		position: static;
+		// height: 8.438rem;
+
+		min-height: 8.438rem;
+		max-height: 12.5rem;
+
+		position: relative;
 		right: auto;
 		top: auto;
 		width: auto;
