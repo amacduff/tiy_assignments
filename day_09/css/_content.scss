@@ -4,10 +4,51 @@ main {
 	overflow: hidden;
 }
 
+aside {
+	display: none;
+	float: left;
+	width: 8.125rem;
+
+	ul {
+		padding: 2rem 0 0 2.5rem;
+
+		li {
+			padding: 0.5rem 0;
+		}
+
+	}
+
+}
+
+.divider {
+	color: $color-border-shadow;
+}
+
+.ad {
+	display: block;
+	position: fixed;
+	bottom: 2rem;
+	left: 1.85rem;
+}
+
+.google,
+.app {
+	border: 1px solid $color-border-shadow;
+	border-radius: 0.25rem;
+	display: block;
+	height: 1.25rem;
+	padding: 0.375rem 0.625rem;
+}
+
+.google {
+	margin-bottom: 0.5rem;
+}
+
 .listname,
 .edit {
-	@include grid(6);
 	display: none;
+	float: left;
+	width: 50%;
 }
 
 .listname {
@@ -27,6 +68,10 @@ main {
 			margin-right: 0;
 		}
 	}
+}
+
+.clearfix {
+	clear: both;
 }
 
 section {

@@ -55,6 +55,10 @@ header {
 	display: none;
 }
 
+.logo {
+	display: none;
+}
+
 .icons_sm,
 .icons_lg {
 	float: right;
@@ -78,7 +82,7 @@ header {
 		@include fntz(0.95);
 		weight: 400;
 	}
-	padding: 1rem 0.6rem 1.1rem 0.6rem;
+	padding: 1rem 0.6rem 1rem 0.6rem;
 	vertical-align: middle;
 
 	&:last-child {

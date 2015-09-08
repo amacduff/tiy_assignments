@@ -23,9 +23,13 @@ a {
 		color: $color-accent;
 	}
 
-	&.selected {
+	&.selected1 {
 		color: $color-accent;
 		border-bottom: 2px solid $color-accent;
+	}
+
+	&.selected2 {
+		color: $color-secondary;
 	}
 
 }

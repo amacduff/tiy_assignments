@@ -28,9 +28,12 @@ a {
 a:hover {
   color: #50bcb6;
 }
-a.selected {
+a.selected1 {
   color: #50bcb6;
   border-bottom: 2px solid #50bcb6;
+}
+a.selected2 {
+  color: #999999;
 }
 
 ::-moz-selection {
@@ -46,6 +49,13 @@ h1 {
   font-size: 36px;
   font-size: 2.25rem;
   font-weight: 300;
+}
+
+h4 {
+  color: #999999;
+  font-size: 12px;
+  font-size: 0.75rem;
+  padding: 0 0 0.5rem 0.625rem;
 }
 
 /* Header */
@@ -105,6 +115,10 @@ header {
   display: none;
 }
 
+.logo {
+  display: none;
+}
+
 .icons_sm,
 .icons_lg {
   float: right;
@@ -127,7 +141,7 @@ header {
   font-size: 15.2px;
   font-size: 0.95rem;
   font-weight: 400;
-  padding: 1rem 0.6rem 1.1rem 0.6rem;
+  padding: 1rem 0.6rem 1rem 0.6rem;
   vertical-align: middle;
 }
 .icons_lg ul li:last-child {
@@ -141,12 +155,47 @@ main {
   overflow: hidden;
 }
 
+aside {
+  display: none;
+  float: left;
+  width: 8.125rem;
+}
+aside ul {
+  padding: 2rem 0 0 2.5rem;
+}
+aside ul li {
+  padding: 0.5rem 0;
+}
+
+.divider {
+  color: #dcdce0;
+}
+
+.ad {
+  display: block;
+  position: fixed;
+  bottom: 2rem;
+  left: 1.85rem;
+}
+
+.google,
+.app {
+  border: 1px solid #dcdce0;
+  border-radius: 0.25rem;
+  display: block;
+  height: 1.25rem;
+  padding: 0.375rem 0.625rem;
+}
+
+.google {
+  margin-bottom: 0.5rem;
+}
+
 .listname,
 .edit {
-  float: left;
-  width: 48%;
-  margin-right: 4%;
   display: none;
+  float: left;
+  width: 50%;
 }
 
 .listname {
@@ -164,6 +213,10 @@ main {
 }
 .edit ul li:last-child {
   margin-right: 0;
+}
+
+.clearfix {
+  clear: both;
 }
 
 section {
@@ -295,7 +348,7 @@ h3 a {
     height: 17.5rem;
     margin-bottom: 4%;
   }
-  .col:nth-child(even) {
+  .col:nth-child(odd) {
     margin-right: 0;
   }
 
@@ -336,6 +389,32 @@ h3 a {
 
   .favicon {
     display: inline-block;
+  }
+}
+@media screen and (min-width: 671px) {
+  .hamburger {
+    display: none;
+  }
+
+  .logo {
+    display: inline-block;
+    margin: 0 1.5rem;
+  }
+
+  aside {
+    display: block;
+  }
+
+  .col {
+    float: left;
+    width: 30.66667%;
+    margin-right: 4%;
+  }
+  .col:nth-child(odd) {
+    margin-right: 4%;
+  }
+  .col:nth-child(3n) {
+    margin-right: 0;
   }
 }
 
