@@ -16,4 +16,4 @@ One major constraint for the project is that I'll be using Google fonts, so I ca
 
 For body copy I chose several serif typefaces that shared similar traits or, sometimes, type designers. This was the furthest departure from the restaurant's existing styles, as they do not use serif typefaces at all.
 
-To be continued...
+To be continued... test
