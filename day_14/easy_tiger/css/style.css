@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya:900,700|Lato:400,700);
+/* Global Styles */
+body {
+  font-family: "Lato", sans-serif;
+  font-color: #2e2c2c;
+}
+
+/* Headings */
+/* Header */
+header {
+  background: #544834 url(../img/menu_hero.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+/* Content */
+/* Media Queries */
