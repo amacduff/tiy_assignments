@@ -5,12 +5,110 @@ body {
   font-color: #2e2c2c;
 }
 
+a {
+  color: #c37012;
+  text-decoration: none;
+  -moz-transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+}
+a:hover {
+  color: #ea8a1e;
+}
+a.selected {
+  color: #c37012;
+  border-bottom: 2px solid #c37012;
+  padding-bottom: 0.25rem;
+}
+
+span {
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+
+::-moz-selection {
+  background: black;
+  color: white;
+}
+
+::selection {
+  background: black;
+  color: white;
+}
+
 /* Headings */
+h1 {
+  color: #f6ad22;
+  font-family: "Alegreya", serif;
+  font-size: 36px;
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  color: #465434;
+  font-family: "Alegreya", serif;
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
 /* Header */
 header {
   background: #544834 url(../img/menu_hero.jpg) center center no-repeat;
   background-size: cover;
+  text-align: center;
+}
+
+nav ul {
+  padding: 1rem 0.25rem;
+}
+nav ul li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+nav a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.logo {
+  margin: auto;
+  padding: 2rem 0 5rem 0;
+  width: 25%;
 }
 
 /* Content */
+main {
+  margin: 2rem auto 4rem auto;
+  overflow: hidden;
+  width: 90%;
+}
+
+section {
+  clear: both;
+}
+
+dt {
+  clear: both;
+  float: left;
+  font-weight: 700;
+  max-width: 75%;
+}
+
+dt,
+dd {
+  padding: 0.5rem 0;
+}
+
+.price {
+  float: right;
+  text-align: right;
+}
+
 /* Media Queries */

@@ -1,2 +1,27 @@
 /* Headings */
 
+h1 {
+	color: $color-primary;
+	font: {
+		family: $font-headings;
+		@include fntz(2.25);
+		weight: 900;
+	}
+	margin-bottom: 1.5rem;
+}
+
+h2 {
+	font: {
+
+	}
+}
+
+h3 {
+	color: $color-tertiary;
+	font: {
+		family: $font-headings;
+		@include fntz(1.5);
+	}
+	margin-bottom: 0.75rem;
+}
+

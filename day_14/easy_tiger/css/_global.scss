@@ -7,3 +7,41 @@ body {
 	}
 }
 
+a {
+	color: $color-secondary;
+	text-decoration: none;
+	-moz-transition: color 0.1s linear;
+	-o-transition: color 0.1s linear;
+	-webkit-transition: color 0.1s linear;
+	transition: color 0.1s linear;
+
+	&:hover {
+		color: lighten($color-secondary, 10%);
+	}
+
+	&.selected {
+		color: $color-secondary;
+		border-bottom: 2px solid $color-secondary;
+		padding-bottom: 0.25rem;
+	}
+
+}
+
+span {
+	font-style: italic;
+}
+
+img {
+	max-width: 100%;
+}
+
+::-moz-selection {
+  background: black;
+  color: white;
+}
+
+::selection {
+  background: black;
+  color: white;
+}
+

@@ -3,5 +3,31 @@
 header {
 	background: $color-dark url(../img/menu_hero.jpg) center center no-repeat;
 	background-size: cover;
+	text-align: center;
+}
+
+nav {
+
+	ul {
+		padding: 1rem 0.25rem;
+
+		li {
+			display: inline;
+			padding: 0 0.5rem;
+		}
+
+	}
+
+	a {
+		color: white;
+		text-transform: uppercase;
+	}
+
+}
+
+.logo {
+	margin: auto;
+	padding: 2rem 0 5rem 0;
+	width: 25%;
 }
 

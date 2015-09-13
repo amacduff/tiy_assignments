@@ -1,2 +1,29 @@
 /* Content */
 
+main {
+	margin: 2rem auto 4rem auto;
+	overflow: hidden;
+	width: 90%;
+}
+
+section {
+	clear: both;
+}
+
+dt {
+	clear: both;
+	float: left;
+	font-weight: 700;
+	max-width: 75%;
+}
+
+dt,
+dd {
+	padding: 0.5rem 0;
+}
+
+.price {
+	float: right;
+	text-align: right;
+}
+
