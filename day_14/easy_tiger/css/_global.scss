@@ -27,21 +27,17 @@ a {
 
 }
 
-span {
-	font-style: italic;
-}
-
 img {
 	max-width: 100%;
 }
 
 ::-moz-selection {
-  background: black;
+  background: $color-primary;
   color: white;
 }
 
 ::selection {
-  background: black;
+  background: $color-primary;
   color: white;
 }
 

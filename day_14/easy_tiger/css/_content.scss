@@ -1,13 +1,32 @@
 /* Content */
 
 main {
-	margin: 2rem auto 4rem auto;
+	margin: 2rem auto 6rem auto;
 	overflow: hidden;
-	width: 90%;
+	width: 85%;
+}
+
+.column {
+	@include grid(12);
 }
 
 section {
+	border-bottom: 2px solid darken($color-light, 10%);
 	clear: both;
+	margin-bottom: 3rem;
+	overflow: hidden;
+	padding-bottom: 3rem;
+}
+
+#cookies {
+	border-bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.subtext {
+	font-style: italic;
+	padding-bottom: 0.5rem;
 }
 
 dt {
@@ -17,13 +36,60 @@ dt {
 	max-width: 75%;
 }
 
+.subtext,
 dt,
 dd {
-	padding: 0.5rem 0;
+	line-height: 1.35em;
+}
+
+dt,
+dd {
+	padding-top: 1rem;
 }
 
 .price {
 	float: right;
 	text-align: right;
+}
+
+.description {
+	clear: both;
+	float: left;
+	padding-top: 0;
+}
+
+.special-desc {
+	float: left;
+	text-align: center;
+	width: 70%;
+
+	p {
+		font-style: italic;
+		line-height: 1.5em;
+
+		span {
+			font: {
+				@include fntz(1.15);
+				style: normal;
+				weight: 700;
+			}
+		}
+
+	}
+
+}
+
+.special-price {
+	float: right;
+	width: 30%;
+
+	span {
+		font: {
+			@include fntz(7);
+		}
+		line-height: 0.75em;
+		vertical-align: top;
+	}
+
 }
 
