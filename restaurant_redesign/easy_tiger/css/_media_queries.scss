@@ -10,6 +10,18 @@
 
 @media screen and (min-width: 860px) {
 
+	h1 {
+		font: {
+			@include fntz(3);
+		}
+	}
+
+	h3 {
+		font: {
+			@include fntz(2);
+		}
+	}
+
 	main {
 		width: 85%;
 	}
@@ -18,10 +30,27 @@
 		@include grid(6);
 	}
 
-	#soda {
-		border-bottom: 0;
-		margin-bottom: 0;
-		padding-bottom: 0;
+	.subtext {
+		width: 45%;
+	}
+
+	footer p {
+		float: left;
+		line-height: 2em;
+		padding-left: 2rem;
+	}
+
+	footer ul {
+		float: right;
+		padding-right: 2rem;
+	}
+
+}
+
+@media screen and (min-width: 1120px) {
+
+	main {
+		width: 65%;
 	}
 
 }

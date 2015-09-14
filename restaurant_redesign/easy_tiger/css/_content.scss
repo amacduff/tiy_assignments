@@ -1,9 +1,13 @@
 /* Content */
 
-main {
+.container {
 	margin: 2rem auto 6rem auto;
 	overflow: hidden;
 	width: 85%;
+}
+
+.row {
+	overflow: hidden;
 }
 
 .column {
@@ -11,17 +15,8 @@ main {
 }
 
 section {
-	border-bottom: 2px solid darken($color-light, 10%);
-	clear: both;
-	margin-bottom: 3rem;
+	margin-bottom: 6rem;
 	overflow: hidden;
-	padding-bottom: 3rem;
-}
-
-#cookies {
-	border-bottom: 0;
-	margin-bottom: 0;
-	padding-bottom: 0;
 }
 
 .subtext {
@@ -32,14 +27,17 @@ section {
 dt {
 	clear: both;
 	float: left;
-	font-weight: 700;
+	font: {
+		@include fntz(1.15);
+		weight: 700;
+	}
 	max-width: 75%;
 }
 
 .subtext,
 dt,
 dd {
-	line-height: 1.35em;
+	line-height: 1.7em;
 }
 
 dt,
@@ -56,6 +54,12 @@ dd {
 	clear: both;
 	float: left;
 	padding-top: 0;
+}
+
+#coffee1,
+#breads1 {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .special-desc {
@@ -79,8 +83,16 @@ dd {
 
 }
 
+aside {
+	background-color: $color-light;
+	margin-bottom: 6rem;
+}
+
 .special {
 	color: $color-tertiary;
+	display: block;
+	margin: 0 auto;
+	width: 20rem;
 }
 
 .special-price {
@@ -95,5 +107,9 @@ dd {
 		vertical-align: top;
 	}
 
+}
+
+#breads {
+	clear: both;
 }
 

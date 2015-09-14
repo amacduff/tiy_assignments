@@ -10,19 +10,12 @@ body {
 a {
 	color: $color-secondary;
 	text-decoration: none;
-	-moz-transition: color 0.1s linear;
-	-o-transition: color 0.1s linear;
-	-webkit-transition: color 0.1s linear;
-	transition: color 0.1s linear;
+	@include transition-property(color);
+	@include transition-duration(0.2s);
+	@include transition-timing-function(linear);
 
 	&:hover {
 		color: lighten($color-secondary, 10%);
-	}
-
-	&.selected {
-		color: $color-secondary;
-		border-bottom: 2px solid $color-secondary;
-		padding-bottom: 0.25rem;
 	}
 
 }
@@ -31,12 +24,7 @@ img {
 	max-width: 100%;
 }
 
-::-moz-selection {
-  background: $color-primary;
-  color: white;
-}
-
-::selection {
+@include selection {
   background: $color-primary;
   color: white;
 }

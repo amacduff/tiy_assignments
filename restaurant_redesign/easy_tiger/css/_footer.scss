@@ -3,6 +3,7 @@
 footer {
 	background-color: $color-light;
 	color: darken($color-light, 50%);
+	overflow: hidden;
 	padding: 2rem 0;
 	text-align: center;
 
