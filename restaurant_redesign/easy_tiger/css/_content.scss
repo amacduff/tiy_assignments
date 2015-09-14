@@ -1,7 +1,7 @@
 /* Content */
 
 .container {
-	margin: 2rem auto 6rem auto;
+	margin: 2rem auto;
 	overflow: hidden;
 	width: 85%;
 }
@@ -86,6 +86,7 @@ dd {
 aside {
 	background-color: $color-light;
 	margin-bottom: 6rem;
+	padding: 3rem 0;
 }
 
 .special {
