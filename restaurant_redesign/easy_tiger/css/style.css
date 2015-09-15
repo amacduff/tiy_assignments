@@ -234,7 +234,7 @@ footer ul li img:hover {
 
 /* Media Queries */
 @media screen and (min-width: 600px) {
-  main {
+  .container {
     width: 60%;
   }
 }
@@ -249,7 +249,7 @@ footer ul li img:hover {
     font-size: 2rem;
   }
 
-  main {
+  .container {
     width: 85%;
   }
 
@@ -278,7 +278,7 @@ footer ul li img:hover {
   }
 }
 @media screen and (min-width: 1120px) {
-  main {
+  .container {
     width: 65%;
   }
 }
