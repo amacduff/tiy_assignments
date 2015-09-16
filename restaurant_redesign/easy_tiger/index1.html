@@ -12,11 +12,11 @@
 
 	<body>
 
-		<header id="home">
+		<header>
 
 			<nav>
 				<ul>
-					<li><a href="#">Menu</a></li>
+					<li><a href="#" class="selected">Menu</a></li>
 					<li><a href="#">Calendar</a></li>
 					<li><a href="#">Booking</a></li>
 				</ul>
@@ -28,35 +28,15 @@
 
 		</header>
 
-		<main>
+		<div class="container">
 
-			<h1>Hours</h1>
+			<h1>Provisions</h1>
 
-			<div class="column">
+			<div class="row">
 
-<<<<<<< HEAD
+			<h3>House Coffee</h3>
 
-
-					<h3>Bake Shop</h3>
-
-					<p><span>7AM–2AM</span></p>
-
-					<h4>Housemade</h4>
-					<ul>
-						<li>Breads</li>
-						<li>Pretzels</li>
-						<li>Sausages</li>
-						<li>Corned Beef</li>
-					</ul>
-
-				</section>
-
-				<section class="column" id="beer">
-=======
-				<section id="coffee">
-
-					<h3>House Coffee</h3>
-					<p class="subtext">Texas Coffee Traders’ locally roasted blend of Brazilian, Ethiopian & Sidamo</p>
+				<section class="column" class="column" id="coffee1">
 
 					<dl>
 						<dt>Regular</dt>
@@ -79,7 +59,13 @@
 					
 						<dt>Macchiato</dt>
 						<dd class="price"><p>3.25</p></dd>
-					
+					</dl>
+
+				</section>
+
+				<section class="column" id="coffee2">
+
+					<dl>
 						<dt>Mocha</dt>
 						<dd class="price"><p>12 oz. 4.25</p><p>20 oz. 4.95</p></dd>
 					
@@ -104,10 +90,13 @@
 
 				</section>
 
-				<section id="chai">
+			</div>
+
+			<div class="row">
+
+				<section class="column" id="chai">
 
 					<h3>Chai Tea</h3>
-					<p class="subtext">Pacific Chai</p>
 
 					<dl>
 						<dt>Chai Latte</dt>
@@ -125,10 +114,9 @@
 
 				</section>
 
-				<section id="hot-tea">
+				<section class="column" id="hot-tea">
 
 					<h3>Hot Tea</h3>
-					<p class="subtext">Mighty Leaf</p>
 
 					<dl>
 						<dt>Verbena Mint, Chamomile Citrus, Chocolate Orange Truffle, Kyoto Rice, Kenyan Sunrise, Organic Earl Grey, Organic Dragonwell, Tulsi Rose</dt>
@@ -137,10 +125,13 @@
 
 				</section>
 
-				<section id="iced-tea">
+			</div>
+
+			<div class="row">
+
+				<section class="column" id="iced-tea">
 
 					<h3>Iced Tea</h3>
-					<p class="subtext">Mighty Leaf</p>
 
 					<dl>
 						<dt>Organic Sunburst Green Tea, Ceylon Yalta Black Tea</dt>
@@ -149,45 +140,39 @@
 
 				</section>
 
-				<section id="water">
+				<section class="column" id="water">
 
 					<h3>Water</h3>
->>>>>>> parent of 305ed44... Fix main/container issue in media query
 
-					<h3>Beer Garden</h3>
+					<dl>
+						<dt>Acqua Panna</dt>
+						<dd class="price"><p>4.25</p></dd>
 
-					<p><span>11AM–2AM</span></p>
+						<dt>San Pellegrino</dt>
+						<dd class="price"><p>4</p></dd>
 
-					<h4>Hand-selected</h4>
-					<ul>
-						<li>Cheeses</li>
-						<li>Craft Beers</li>
-						<li>Wines</li>
-						<li>Spirits</li>
-					</ul>
+						<dt>Topo Chico</dt>
+						<dd class="price"><p>2</p></dd>
+					</dl>
 
 				</section>
 
-<<<<<<< HEAD
 			</div>
 
 			<div class="row">
 
-				<section class="column" id="who">
-=======
-				<section id="juice">
->>>>>>> parent of 305ed44... Fix main/container issue in media query
+				<section class="column" id="juice">
 
-					<h1>Who We Are</h1>
+					<h3>Juice</h3>
 
-					<p>Easy Tiger is a bake shop and beer garden located in Austin, Texas. We feature artisan bread (including baguettes, croissants, pretzels), locally roasted coffee, housemade meats (sausages, corned beef, pastrami), a full bar and more than 30 local and boutique draft beers.
+					<dl>
+						<dt>Orange Juice, Lemonade</dt>
+						<dd class="price"><p>3.5</p></dd>
+					</dl>
 
-<<<<<<< HEAD
-			<div class="row">
-=======
 				</section>
 
-				<section id="soda">
+				<section class="column" id="soda">
 
 					<h3>Soda</h3>
 
@@ -197,36 +182,48 @@
 
 						<dt>Maine Root Root Beer</dt>
 						<dd class="price"><p>3.75</p></dd>
->>>>>>> parent of 305ed44... Fix main/container issue in media query
 
-				<section class="column" id="location">
+						<dt>Mexican Coke</dt>
+						<dd class="price"><p>3.5</p></dd>
 
-					<address>
-						<span>709</span> E. 6th Street<br>
-						Austin, TX 78701<br>
-						<a href="tel:5126144972">(512) 614-4972</a>
-					</address>
+						<dt>Coke, Diet Coke, Sprite, Dr Pepper</dt>
+						<dd class="price"><p>1.5</p></dd>
+					</dl>
 
 				</section>
 
 			</div>
 
-<<<<<<< HEAD
 		</div>
 
-		<aside id="map">
+		<aside>
+
+			<section class="special">
+
+				<div class="special-desc">
+					<h2>Easy Start</h2>
+					<p>Monday–Friday, 7am to 11am</p>
+					<p><span>Small Coffee & Any Pastry</span></p>
+					<p>Bake Shop only</p>
+
+				</div>
+
+				<div class="special-price">
+					<h2>$<span>5</span></h2>
+				</div>
+
+			</section>
 
 		</aside>
 
 		<div class="container">
 
 
-=======
-			<div class="column">
+			<div class="row">
 
-				<section id="breads">
+				<h3>Breads</h3>
 
-					<h3>Breads</h3>
+				<section class="column" id="breads1">
 
 					<dl>
 						<dt>Baguette</dt>
@@ -249,7 +246,13 @@
 
 						<dt>Sourdough Boule</dt>
 						<dd class="price"><p>3.5</p></dd>
+					</dl>
 
+				</section>
+
+				<section class="column" id="breads2">
+
+					<dl>
 						<dt>Nine-Grain Batard</dt>
 						<dd class="price"><p>3.5</p></dd>
 
@@ -274,23 +277,11 @@
 
 				</section>
 
-				<section class="special">
+			</div>
 
-					<div class="special-desc">
-						<h2>Easy Start</h2>
-						<p>Monday–Friday, 7am to 11am</p>
-						<p><span>Small Coffee & Any Pastry</span></p>
-						<p>Bake Shop only</p>
+			<div class="row">
 
-					</div>
-
-					<div class="special-price"><p>
-						<h2>$<span>5</span></h2>
-					</div>
-
-				</section>
-
-				<section id="pastries">
+				<section class="column" id="pastries">
 
 					<h3>Pastries</h3>
 
@@ -323,7 +314,7 @@
 
 				</section>
 
-				<section id="cookies">
+				<section class="column" id="cookies">
 
 					<h3>Cookies</h3>
 
@@ -341,9 +332,8 @@
 				</section>
 
 			</div>
->>>>>>> parent of 305ed44... Fix main/container issue in media query
 
-		</main>
+		</div>
 
 		<footer>
 
