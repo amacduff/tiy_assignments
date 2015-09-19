@@ -1,4 +1,5 @@
 # Accessibility
+9/17/15
 
 This week in my classes at The Iron Yard we've been talking about web accessibility. It has been really eye opening for me. I guess because in the past I have tried to use good contrast and make text large enough in my designs, I thought I was making accessible sites. But as we've been going through this stuff, I've realized how badly I have been missing the mark.
 
