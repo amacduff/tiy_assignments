@@ -6,22 +6,6 @@
 		border-bottom: 1px solid $color-border-shadow;
 	}
 
-	#topnav_sm {
-		display: none;
-	}
-
-	#topnav_lg {
-		display: inline-block;
-	}
-
-	#topnav_lg ul li {
-		margin-right: 1.75rem;
-
-		&:last-child {
-			margin: 0 0 0 1.75rem;
-		}
-	}
-
 	.icons_sm {
 		display: none;
 	}
@@ -95,6 +79,26 @@
 
 	.favicon {
 		display: inline-block;
+	}
+
+}
+
+@media screen and (min-width: 608px) {
+
+	#topnav_sm {
+		display: none;
+	}
+
+	#topnav_lg {
+		display: inline-block;
+	}
+
+	#topnav_lg ul li {
+		margin-right: 1.75rem;
+
+		&:last-child {
+			margin: 0 0 0 1.75rem;
+		}
 	}
 
 }

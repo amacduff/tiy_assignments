@@ -305,21 +305,6 @@ h3 a {
     border-bottom: 1px solid #dcdce0;
   }
 
-  #topnav_sm {
-    display: none;
-  }
-
-  #topnav_lg {
-    display: inline-block;
-  }
-
-  #topnav_lg ul li {
-    margin-right: 1.75rem;
-  }
-  #topnav_lg ul li:last-child {
-    margin: 0 0 0 1.75rem;
-  }
-
   .icons_sm {
     display: none;
   }
@@ -389,6 +374,22 @@ h3 a {
 
   .favicon {
     display: inline-block;
+  }
+}
+@media screen and (min-width: 608px) {
+  #topnav_sm {
+    display: none;
+  }
+
+  #topnav_lg {
+    display: inline-block;
+  }
+
+  #topnav_lg ul li {
+    margin-right: 1.75rem;
+  }
+  #topnav_lg ul li:last-child {
+    margin: 0 0 0 1.75rem;
   }
 }
 @media screen and (min-width: 671px) {
