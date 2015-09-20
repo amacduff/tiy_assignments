@@ -1,3 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400|Lato:400,400italic,700);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Variables */
+/* Mixins */
+/* Global Styles */
+body {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  border-bottom: 2px solid #fff;
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+a:hover {
+  background-color: #fff;
+}
+
+abbr {
+  border-bottom: 1px dotted #333;
+}
+
+::-moz-selection {
+  background: #f0e2c2;
+  color: #333;
+}
+
+::selection {
+  background: #f0e2c2;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #ff310a;
+  color: #fff;
+  padding: 5rem 2rem;
+}
+header h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 64px;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-shadow: 0 3px 0 #333;
+}
+header h2 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-style: italic;
+  padding-top: 1rem;
+  text-shadow: 0 2px 0 #333;
+}
+
+/* Headings */
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25em;
+  padding: 4rem 2rem 1rem 2rem;
+}
+
+/* Sections */
+.summary {
+  background: repeating-radial-gradient(circle, white, white 10px, #333 10px, #333 20px);
+}
+.summary p {
+  background-color: #f0e2c2;
+  padding: 4rem 2rem 1rem 2rem;
+}
+.summary p:last-child {
+  padding: 0 2rem 4rem 2rem;
+}
+
+.preamble {
+  background: repeating-linear-gradient(to right, white, white 10px, #333 10px, #333 20px);
+  color: #fff;
+  padding-top: 15rem;
+}
+.preamble h3 {
+  background-color: #333;
+}
+.preamble p {
+  background-color: #333;
+  padding: 1rem 2rem;
+}
+.preamble p:nth-child(3) {
+  padding: 0 2rem 1rem 2rem;
+}
+.preamble p:last-child {
+  padding: 0 2rem 4rem 2rem;
+}
+.preamble abbr {
+  border-bottom: 1px dotted #fff;
+}
+
+.explanation {
+  background: repeating-linear-gradient(45deg, white, white 10px, #333 10px, #333 20px);
+}
+.explanation h3 {
+  background-color: #fff;
+}
+.explanation p {
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+.explanation p:last-child {
+  padding: 0 2rem 4rem 2rem;
+}
+
+.participation {
+  background: repeating-linear-gradient(to bottom, white, white 10px, #333 10px, #333 20px);
+  color: #fff;
+  padding-top: 15rem;
+}
+.participation h3 {
+  background-color: #ff310a;
+}
+.participation p {
+  background-color: #ff310a;
+  padding: 1rem 2rem;
+}
+.participation p:nth-child(3) {
+  padding: 0 2rem 1rem 2rem;
+}
+.participation p:last-child {
+  padding: 0 2rem 4rem 2rem;
+}
+
+.benefits {
+  background: repeating-linear-gradient(-45deg, white, white 10px, #333 10px, #333 20px);
+}
+.benefits h3 {
+  background-color: #f0e2c2;
+}
+.benefits p {
+  background-color: #f0e2c2;
+  padding: 1rem 2rem 4rem 2rem;
+}
+
+.requirements {
+  background: repeating-radial-gradient(circle, white, white 10px, #333 10px, #333 20px);
+  color: #fff;
+  padding-top: 15rem;
+}
+.requirements h3 {
+  background-color: #333;
+}
+.requirements p {
+  background-color: #333;
+  padding: 1rem 2rem;
+}
+.requirements p:nth-child(3) {
+  padding: 0 2rem 1rem 2rem;
+}
+.requirements p:nth-child(5) {
+  padding: 0 2rem 4rem 2rem;
+}
+.requirements p:last-child {
+  background-color: #fff;
+  color: #333;
+  padding: 4rem 2rem;
+}
+.requirements p:last-child a {
+  border-bottom: 2px solid #333;
+  color: #333;
+}
+.requirements p:last-child a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.requirements a {
+  border-bottom: 2px solid #ff310a;
+  color: #fff;
+}
+.requirements a:hover {
+  background-color: #ff310a;
+}
+.requirements abbr {
+  border-bottom: 1px dotted #fff;
+}
+
+/* Footer */
+footer {
+  padding: 2rem;
+}
+footer a {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-right: 1rem;
+}
+footer a:last-child {
+  padding-right: 0;
+}
+
+/* Aside */
+.sidebar {
+  background-color: #888;
+  color: #333;
+}
+.sidebar h3 {
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+nav,
+.zen-resources {
+  padding: 0 2rem 4rem 2rem;
+}
+
+nav ul li {
+  padding-bottom: 1rem;
+}
+
+.design-selection {
+  background: repeating-linear-gradient(to right, #fff, #fff 10px, #eeeeee 10px, #eeeeee 20px);
+}
+
+.design-archives {
+  background: repeating-linear-gradient(to right, #faf5eb, #faf5eb 10px, #eeeeee 10px, #eeeeee 20px);
+}
+
+.zen-resources {
+  background: repeating-linear-gradient(to right, #faf5eb, #faf5eb 10px, #fff 10px, #fff 20px);
+}
+.zen-resources h3 {
+  padding-left: 0;
+}
+
+.design-name {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.designer-name {
+  font-style: italic;
+}
 
 /*# sourceMappingURL=style.css.map */

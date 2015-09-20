@@ -1,0 +1,77 @@
+/* Aside */
+
+.sidebar {
+	background-color: $color-tertiary;
+	color: $color-text;
+	
+	h3 {
+		font: {
+			@include fntz(1.75);
+			weight: 300;
+		}
+		text-transform: uppercase;
+	}
+
+}
+
+nav,
+.zen-resources {
+	padding: 0 2rem 4rem 2rem;
+}
+
+nav {
+
+	ul li {
+		padding-bottom: 1rem;
+	}
+
+}
+
+.design-selection {
+	background: repeating-linear-gradient(
+		to right,
+		$color-text-accent,
+		$color-text-accent 10px,
+		lighten($color-tertiary, 40%) 10px, 
+		lighten($color-tertiary, 40%) 20px
+	);
+}
+
+.design-archives {
+	background: repeating-linear-gradient(
+		to right,
+		lighten($color-secondary, 10%),
+		lighten($color-secondary, 10%) 10px,
+		lighten($color-tertiary, 40%) 10px, 
+		lighten($color-tertiary, 40%) 20px
+	);
+}
+
+.zen-resources {
+	background: repeating-linear-gradient(
+		to right,
+		lighten($color-secondary, 10%),
+		lighten($color-secondary, 10%) 10px,
+		$color-text-accent 10px, 
+		$color-text-accent 20px
+	);
+
+	h3 {
+		padding-left: 0;
+	}
+
+}
+
+.design-name {
+	display: block;
+	font: {
+		weight: 700;
+	}
+	text-transform: uppercase;
+}
+
+.designer-name {
+	font: {
+		style: italic;
+	}
+}

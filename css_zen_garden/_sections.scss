@@ -1,0 +1,196 @@
+/* Sections */
+
+.summary {
+	background: repeating-radial-gradient(
+		circle,
+		white,
+		white 10px,
+		#333 10px, 
+		#333 20px
+	);
+
+	p {
+		background-color: $color-secondary;
+		padding: 4rem 2rem 1rem 2rem;
+
+		&:last-child {
+			padding: 0 2rem 4rem 2rem;
+		}
+
+	}
+
+}
+
+.preamble {
+	background: repeating-linear-gradient(
+		to right,
+		white,
+		white 10px,
+		#333 10px, 
+		#333 20px
+	);
+	color: $color-text-accent;
+	padding-top: 15rem;
+
+	h3 {
+		background-color: $color-text;
+	}
+
+	p {
+		background-color: $color-text;
+		padding: 1rem 2rem;
+
+		&:nth-child(3) {
+			padding: 0 2rem 1rem 2rem;
+		}
+
+		&:last-child {
+			padding: 0 2rem 4rem 2rem;
+		}
+
+	}
+
+	abbr {
+		border-bottom: 1px dotted $color-text-accent;
+	}
+
+}
+
+.explanation {
+	background: repeating-linear-gradient(
+		45deg,
+		white,
+		white 10px,
+		#333 10px, 
+		#333 20px
+	);
+
+	h3 {
+		background-color: $color-text-accent;
+	}
+
+	p {
+		background-color: $color-text-accent;
+		padding: 1rem 2rem;
+
+		&:last-child {
+			padding: 0 2rem 4rem 2rem;
+		}
+
+	}
+
+}
+
+.participation {
+	background: repeating-linear-gradient(
+		to bottom,
+		white,
+		white 10px,
+		#333 10px, 
+		#333 20px
+	);
+	color: $color-text-accent;
+	padding-top: 15rem;
+
+	h3 {
+		background-color: $color-primary;
+	}
+
+	p {
+		background-color: $color-primary;
+		padding: 1rem 2rem;
+
+		&:nth-child(3) {
+			padding: 0 2rem 1rem 2rem;
+		}
+
+		&:last-child {
+			padding: 0 2rem 4rem 2rem;
+		}
+
+	}
+
+}
+
+.benefits {
+	background: repeating-linear-gradient(
+		-45deg,
+		white,
+		white 10px,
+		#333 10px, 
+		#333 20px
+	);
+
+	h3 {
+		background-color: $color-secondary;
+	}
+
+	p {
+		background-color: $color-secondary;
+		padding: 1rem 2rem 4rem 2rem;
+
+	}
+
+}
+
+.requirements {
+	background: repeating-radial-gradient(
+		circle,
+		white,
+		white 10px,
+		#333 10px, 
+		#333 20px
+	);
+	color: $color-text-accent;
+	padding-top: 15rem;
+
+	h3 {
+		background-color: $color-text;
+	}
+
+	p {
+		background-color: $color-text;
+		padding: 1rem 2rem;
+
+		&:nth-child(3) {
+			padding: 0 2rem 1rem 2rem;
+		}
+
+		&:nth-child(5) {
+			padding: 0 2rem 4rem 2rem;
+		}
+
+		&:last-child {
+			background-color: $color-text-accent;
+			color: $color-text;
+			padding: 4rem 2rem;
+
+			a {
+				border-bottom: 2px solid $color-text;
+				color: $color-text;
+
+				&:hover {
+					background-color: $color-text;
+					color: $color-text-accent;
+				}
+			}
+
+		}
+
+	}
+
+	a {
+		border-bottom: 2px solid $color-primary;
+		color: $color-text-accent;
+
+		&:hover {
+			background-color: $color-primary;
+		}
+	}
+
+	abbr {
+		border-bottom: 1px dotted $color-text-accent;
+	}
+
+}
+

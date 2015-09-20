@@ -1,0 +1,19 @@
+/* Footer */
+
+footer {
+
+	a {
+		font: {
+			family: $font-heading;
+			@include fntz(1.25);
+			weight: 300;
+		}
+		padding-right: 1rem;
+
+		&:last-child {
+			padding-right: 0;
+		}
+
+	}
+	padding: 2rem;
+}
