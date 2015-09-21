@@ -2,7 +2,39 @@
 
 // Home
 
+.hours {
+	font: {
+		@include fntz(1.5);
+		weight: 700;
+	}
+	text-align: center;
 
+	span {
+		font: {
+			@include fntz(5);
+			family: $font-headings;
+		}
+	}
+
+}
+
+.products {
+
+	p {
+		font: {
+			@include fntz(1.15);
+		}
+		text-align: center;
+	}
+
+	ul li {
+		display: inline-block;
+		font: {
+			@include fntz(1.25);
+		}
+	}
+
+}
 
 #map {
 	background: url(../img/map.png) center center no-repeat;

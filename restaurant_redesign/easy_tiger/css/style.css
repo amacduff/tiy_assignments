@@ -36,6 +36,10 @@ img {
   color: white;
 }
 
+em {
+  font-style: italic;
+}
+
 /* Headings */
 h1 {
   color: #f6ad22;
@@ -107,6 +111,29 @@ nav a.selected {
 }
 
 /* Content */
+.hours {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.hours span {
+  font-size: 80px;
+  font-size: 5rem;
+  font-family: "Alegreya", serif;
+}
+
+.products p {
+  font-size: 18.4px;
+  font-size: 1.15rem;
+  text-align: center;
+}
+.products ul li {
+  display: inline-block;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
 #map {
   background: url(../img/map.png) center center no-repeat;
   height: 30.313rem;
