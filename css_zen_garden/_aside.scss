@@ -12,6 +12,15 @@
 		text-transform: uppercase;
 	}
 
+	a {
+		border: none;
+
+		&:hover {
+			background-color: $color-text-accent;
+		}
+
+	}
+
 }
 
 nav,
@@ -28,33 +37,19 @@ nav {
 }
 
 .design-selection {
-	background: repeating-linear-gradient(
-		to right,
-		$color-text-accent,
-		$color-text-accent 10px,
-		lighten($color-tertiary, 40%) 10px, 
-		lighten($color-tertiary, 40%) 20px
-	);
+	background: lighten($color-secondary, 8%);
+	overflow: hidden;
 }
 
 .design-archives {
-	background: repeating-linear-gradient(
-		to right,
-		lighten($color-secondary, 10%),
-		lighten($color-secondary, 10%) 10px,
-		lighten($color-tertiary, 40%) 10px, 
-		lighten($color-tertiary, 40%) 20px
-	);
+	background: $color-secondary;
+	box-sizing: border-box;
 }
 
 .zen-resources {
-	background: repeating-linear-gradient(
-		to right,
-		lighten($color-secondary, 10%),
-		lighten($color-secondary, 10%) 10px,
-		$color-text-accent 10px, 
-		$color-text-accent 20px
-	);
+	background: lighten($color-secondary, 5%);
+	box-sizing: border-box;
+	line-height: 1.5em;
 
 	h3 {
 		padding-left: 0;
@@ -62,16 +57,24 @@ nav {
 
 }
 
-.design-name {
+a.design-name {
+	color: $color-primary;
 	display: block;
 	font: {
 		weight: 700;
 	}
 	text-transform: uppercase;
+
+	&:hover {
+		background: none;
+	}
+
 }
 
 .designer-name {
 	font: {
 		style: italic;
 	}
+	line-height: 1.5em;
 }
+

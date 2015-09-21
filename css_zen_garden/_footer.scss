@@ -1,19 +1,27 @@
 /* Footer */
 
 footer {
+	background-color: $color-text-accent;
+	padding: 2rem;
 
 	a {
+		border: none;
 		font: {
 			family: $font-heading;
 			@include fntz(1.25);
 			weight: 300;
 		}
-		padding-right: 1rem;
+		margin-right: 1rem;
+		padding: 0.1rem 0.5rem;
 
 		&:last-child {
-			padding-right: 0;
+			margin-right: 0;
+		}
+
+		&:hover {
+			background-color: $color-secondary;
 		}
 
 	}
-	padding: 2rem;
+	
 }

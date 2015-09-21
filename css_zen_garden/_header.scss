@@ -2,17 +2,19 @@
 
 header {
 	background-color: $color-primary;
+	box-sizing: border-box;
 	color: $color-text-accent;
 	padding: 5rem 2rem;
 
 	h1 {
+		animation: pulse 4s ease-in-out infinite;
 		font: {
 			family: $font-heading;
 			@include fntz(4);
 			weight: 400;
 		}
 		line-height: 1.2em;
-		text-shadow: 0 3px 0 $color-text;
+		max-width: 15rem;
 	}
 
 	h2 {
@@ -20,8 +22,12 @@ header {
 			@include fntz(1.25);
 			style: italic;
 		}
-		padding-top: 1rem;
-		text-shadow: 0 2px 0 $color-text;
+		padding-top: 2rem;
+
+		abbr {
+			border-bottom: 0;
+		}
+
 	}
 
 }

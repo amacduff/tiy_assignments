@@ -1,20 +1,26 @@
 /* Sections */
 
 .summary {
-	background: repeating-radial-gradient(
-		circle,
-		white,
-		white 10px,
-		#333 10px, 
-		#333 20px
-	);
+	box-sizing: border-box;
 
 	p {
 		background-color: $color-secondary;
 		padding: 4rem 2rem 1rem 2rem;
 
 		&:last-child {
-			padding: 0 2rem 4rem 2rem;
+			padding-top: 0;
+			padding-bottom: 4rem;
+		}
+
+	}
+
+	a {
+		border-bottom: 2px solid $color-primary;
+		color: $color-primary;
+		text-transform: uppercase;
+
+		&:before {
+			content: "⬇";
 		}
 
 	}
@@ -22,13 +28,8 @@
 }
 
 .preamble {
-	background: repeating-linear-gradient(
-		to right,
-		white,
-		white 10px,
-		#333 10px, 
-		#333 20px
-	);
+	background: $color-text-accent url(op_art_1.jpg) center center no-repeat;
+	background-size: cover;
 	color: $color-text-accent;
 	padding-top: 15rem;
 
@@ -41,11 +42,12 @@
 		padding: 1rem 2rem;
 
 		&:nth-child(3) {
-			padding: 0 2rem 1rem 2rem;
+			padding-top: 0;
 		}
 
 		&:last-child {
-			padding: 0 2rem 4rem 2rem;
+			padding-top: 0;
+			padding-bottom: 4rem;
 		}
 
 	}
@@ -57,13 +59,7 @@
 }
 
 .explanation {
-	background: repeating-linear-gradient(
-		45deg,
-		white,
-		white 10px,
-		#333 10px, 
-		#333 20px
-	);
+	background: $color-text-accent;
 
 	h3 {
 		background-color: $color-text-accent;
@@ -74,7 +70,8 @@
 		padding: 1rem 2rem;
 
 		&:last-child {
-			padding: 0 2rem 4rem 2rem;
+			padding-top: 0;
+			padding-bottom: 4rem;
 		}
 
 	}
@@ -82,13 +79,8 @@
 }
 
 .participation {
-	background: repeating-linear-gradient(
-		to bottom,
-		white,
-		white 10px,
-		#333 10px, 
-		#333 20px
-	);
+	background: $color-text-accent url(op_art_2.jpg) center center no-repeat;
+	background-size: cover;
 	color: $color-text-accent;
 	padding-top: 15rem;
 
@@ -101,11 +93,22 @@
 		padding: 1rem 2rem;
 
 		&:nth-child(3) {
-			padding: 0 2rem 1rem 2rem;
+			padding-top: 0;
 		}
 
 		&:last-child {
-			padding: 0 2rem 4rem 2rem;
+			padding-top: 0;
+			padding-bottom: 4rem;
+		}
+
+	}
+
+	a {
+		border-bottom: 2px solid $color-text-accent;
+		color: $color-text-accent;
+
+		&:hover {
+			background-color: $color-text;
 		}
 
 	}
@@ -113,13 +116,6 @@
 }
 
 .benefits {
-	background: repeating-linear-gradient(
-		-45deg,
-		white,
-		white 10px,
-		#333 10px, 
-		#333 20px
-	);
 
 	h3 {
 		background-color: $color-secondary;
@@ -134,13 +130,8 @@
 }
 
 .requirements {
-	background: repeating-radial-gradient(
-		circle,
-		white,
-		white 10px,
-		#333 10px, 
-		#333 20px
-	);
+	background: $color-text-accent url(op_art_3.jpg) center center no-repeat;
+	background-size: cover;
 	color: $color-text-accent;
 	padding-top: 15rem;
 
@@ -153,11 +144,12 @@
 		padding: 1rem 2rem;
 
 		&:nth-child(3) {
-			padding: 0 2rem 1rem 2rem;
+			padding-top: 0;
 		}
 
 		&:nth-child(5) {
-			padding: 0 2rem 4rem 2rem;
+			padding-top: 0;
+			padding-bottom: 4rem;
 		}
 
 		&:last-child {
@@ -170,8 +162,7 @@
 				color: $color-text;
 
 				&:hover {
-					background-color: $color-text;
-					color: $color-text-accent;
+					background-color: $color-secondary;
 				}
 			}
 
@@ -180,7 +171,7 @@
 	}
 
 	a {
-		border-bottom: 2px solid $color-primary;
+		border-bottom: 2px solid $color-text-accent;
 		color: $color-text-accent;
 
 		&:hover {
