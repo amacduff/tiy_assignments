@@ -27,16 +27,16 @@ nav {
 	}
 
 	a {
-		color: white;
+		color: lighten($color-primary, 25%);
 		text-transform: uppercase;
 
 		&:hover {
-			color: lighten($color-primary, 25%);
+			color: white;
 		}
 
 		&.selected {
-			color: lighten($color-primary, 25%);
-			border-bottom: 2px solid lighten($color-primary, 25%);
+			color: white;
+			border-bottom: 2px solid white;
 			padding-bottom: 0.25rem;
 		}
 

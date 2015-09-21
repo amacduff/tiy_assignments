@@ -88,15 +88,15 @@ nav ul li {
   padding: 0 0.5rem;
 }
 nav a {
-  color: white;
+  color: #fbda9d;
   text-transform: uppercase;
 }
 nav a:hover {
-  color: #fbda9d;
+  color: white;
 }
 nav a.selected {
-  color: #fbda9d;
-  border-bottom: 2px solid #fbda9d;
+  color: white;
+  border-bottom: 2px solid white;
   padding-bottom: 0.25rem;
 }
 
