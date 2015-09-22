@@ -29,7 +29,8 @@
 
 .preamble {
 	background: $color-text-accent url(op_art_1.jpg) center center no-repeat;
-	background-size: cover;
+	background-attachment: fixed;
+	// background-size: cover;
 	color: $color-text-accent;
 	padding-top: 15rem;
 
