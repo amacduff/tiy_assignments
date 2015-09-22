@@ -169,7 +169,7 @@ h3 {
 
 .preamble {
   background: #fff url(op_art_1.jpg) center center no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
   color: #fff;
   padding-top: 15rem;
 }
