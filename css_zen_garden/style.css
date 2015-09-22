@@ -66,6 +66,11 @@ table {
     transform: scale(0.99);
   }
 }
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* Mixins */
 /* Global Styles */
 body {
@@ -238,10 +243,10 @@ h3 {
 }
 
 .requirements {
-  background: #fff url(op_art_3.jpg) center center no-repeat;
-  background-size: cover;
   color: #fff;
+  overflow: hidden;
   padding-top: 15rem;
+  position: relative;
 }
 .requirements h3 {
   background-color: #333;
@@ -278,6 +283,18 @@ h3 {
 }
 .requirements abbr {
   border-bottom: 1px dotted #fff;
+}
+
+.requirements:before {
+  content: "";
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  top: -100%;
+  left: -100%;
+  z-index: -1;
+  background: url(op_art_3.jpg) center center no-repeat;
+  animation: spin 120s linear infinite;
 }
 
 /* Footer */

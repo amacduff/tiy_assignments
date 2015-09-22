@@ -35,3 +35,13 @@ $font-text: "Lato", sans-serif;
 
 }
 
+@keyframes spin {
+
+	0% {}
+
+	100% {
+		transform: rotate(360deg);
+	}
+
+}
+

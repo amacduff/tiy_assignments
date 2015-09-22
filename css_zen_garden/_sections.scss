@@ -130,10 +130,10 @@
 }
 
 .requirements {
-	background: $color-text-accent url(op_art_3.jpg) center center no-repeat;
-	background-size: cover;
 	color: $color-text-accent;
+	overflow: hidden;
 	padding-top: 15rem;
+	position: relative;
 
 	h3 {
 		background-color: $color-text;
@@ -183,5 +183,17 @@
 		border-bottom: 1px dotted $color-text-accent;
 	}
 
+}
+
+.requirements:before {
+	content: "";
+	position: absolute;
+	width: 300%;
+	height: 300%;
+	top: -100%;
+	left: -100%;
+	z-index: -1;
+	background: url(op_art_3.jpg) center center no-repeat;
+	animation: spin 120s linear infinite;
 }
 
