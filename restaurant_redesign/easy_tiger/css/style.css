@@ -123,15 +123,50 @@ nav a.selected {
   font-family: "Alegreya", serif;
 }
 
+#seven {
+  letter-spacing: -0.1em;
+}
+
 .products p {
-  font-size: 18.4px;
-  font-size: 1.15rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.products ul {
+  line-height: 1.6em;
+  margin-top: 0.5rem;
   text-align: center;
 }
 .products ul li {
   display: inline-block;
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 18.4px;
+  font-size: 1.15rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+
+#about p {
+  line-height: 1.6em;
+}
+
+#location p {
+  font-size: 18.4px;
+  font-size: 1.15rem;
+  line-height: 1.6em;
+  text-align: center;
+  text-transform: uppercase;
+}
+#location p:nth-child(2) {
+  font-size: 48px;
+  font-size: 3rem;
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+}
+#location p a {
+  font-size: 32px;
+  font-size: 2rem;
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+  line-height: 1.6em;
 }
 
 #map {
@@ -277,6 +312,11 @@ footer ul li img:hover {
   main {
     width: 60%;
   }
+
+  .products {
+    margin: 0 auto;
+    width: 50%;
+  }
 }
 @media screen and (min-width: 860px) {
   h1 {
@@ -315,6 +355,10 @@ footer ul li img:hover {
   footer ul {
     float: right;
     padding-right: 2rem;
+  }
+
+  .products {
+    width: 76%;
   }
 }
 @media screen and (min-width: 1120px) {

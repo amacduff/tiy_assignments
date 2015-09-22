@@ -6,6 +6,11 @@
 		width: 60%;
 	}
 
+	.products {
+		margin: 0 auto;
+		width: 50%;
+	}
+
 }
 
 @media screen and (min-width: 860px) {
@@ -43,6 +48,10 @@
 	footer ul {
 		float: right;
 		padding-right: 2rem;
+	}
+
+	.products {
+		width: 76%;
 	}
 
 }

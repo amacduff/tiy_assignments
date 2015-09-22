@@ -18,20 +18,70 @@
 
 }
 
+#seven {
+	letter-spacing: -0.1em;
+}
+
 .products {
+
+	p {
+		margin-top: 1rem;
+		text-align: center;
+	}
+
+	ul {
+		line-height: 1.6em;
+		margin-top: 0.5rem;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			font: {
+				@include fntz(1.15);
+			}
+			padding: 0 1rem;
+			text-transform: uppercase;
+		}
+
+	}
+
+}
+
+#about {
+
+	p {
+		line-height: 1.6em;
+	}
+
+}
+
+#location {
 
 	p {
 		font: {
 			@include fntz(1.15);
 		}
+		line-height: 1.6em;
 		text-align: center;
-	}
+		text-transform: uppercase;
 
-	ul li {
-		display: inline-block;
-		font: {
-			@include fntz(1.25);
+		&:nth-child(2) {
+			font: {
+				@include fntz(3);
+				family: $font-headings;
+				weight: 700;
+			}
 		}
+
+		a {
+			font: {
+				@include fntz (2);
+				family: $font-headings;
+				weight: 700;
+			}
+			line-height: 1.6em;
+		}
+
 	}
 
 }
