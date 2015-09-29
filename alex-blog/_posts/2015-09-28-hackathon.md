@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Five Things I Learned From My Hackathon Experience"
+title:  "Hackathon"
 date:   2015-09-28 12:54:56
 categories: the-iron-yard
 ---
@@ -9,7 +9,7 @@ This past weekend I participated in a hackathon (as the title of the post sugges
 
 Fortunately, I was put on a team with some really great people who really knew their stuff. I designed as best I could, tried to pull my own weight, and for the most part kept myself out of trouble. In the end, I was pretty proud of what we accomplished, given the amount of time we had to work with. Bottom line: I survived. And now that I'm on the other side of it, here are some thoughts about my experience.
 
-# What I Learned
+# Five Things I Learned From My Hackathon Experience
 
 ## A Renewed Respect for Web Developers
 I'll be honest: since I started at The Iron Yard I've stepped up my HTML & CSS game a bit. I've learned some cool stuff and made some cool things. I had gotten to the point where I would get to the end of a project and look at all the code I'd written and just think, *Wow, I can't believe I wrote all that in just a few hours*. But when I started working with the Front End and Ruby peeps, I was blown away at how much code they wrote. Over the course of the weekend they probably wrote hundreds, if not thousands, of lines of code. It's not even comparable to what I do.
