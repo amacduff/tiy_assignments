@@ -18,7 +18,7 @@ I'll be honest: since I started at The Iron Yard I've stepped up my HTML & CSS g
 I was fortunate to be in a group that stuck together the whole weekend. We all worked at the same table, pretty much the entire time. It's so much easier (and faster) to communicate in person than basically any other way. Some other groups split up and tried to work remotely, and struggled because of it. In a project like this, communication is key. And working in close proximity fosters communication a lot better than any alternative.
 
 ## The Agony of Setbacks
-In a project of this magnitude, setbacks are a reality. My team learned that first hand when we lost several hours of our weekend to a minor misspelling. One typo among hundreds of lines of code is hard to find, and it can halt progress for a significant amount of time. Additionally, even though there was no blame, the person responsible felt a huge amount of frustration over the ordeal.
+In a project of this magnitude, setbacks are a reality. My team learned that first hand when we lost several hours of our weekend to a minor misspelling. One typo among hundreds of lines of code is hard to find, and it can halt progress for a significant amount of time. Everyone makes mistakes; it's to be expected. However, that doesn't make them any less frustrating.
 
 ## A Healthy Fear of the Power of Git
 This one's pretty short: Git is no joke. It's amazing what a powerful tool it is. And while I realize merge conflicts are part of the process, I still feel a little anxiety about the possibility of a major "spaghetti code" type merge scenario.
