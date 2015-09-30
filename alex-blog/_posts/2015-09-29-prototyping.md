@@ -3,8 +3,11 @@ layout: post
 title:  "Prototyping"
 date:   2015-09-29 08:54:56
 categories: the-iron-yard
+excerpt: Blah blah blah Yadda yadda yadda
 ---
 *[UI]: User Interface
+
+{{ post.excerpt }}
 
 # The Marshmallow Challenge
 Today at The Iron Yard we (the UI Design class) started our day with a challenge. A marshmallow challenge, to be specific. We were split up into groups and given twenty sticks of spaghetti, one yard of tape, one yard of string, and one marshmallow. Each group was then given eighteen minutes to build the tallest free-standing structure they could, with the marshmallow on top. Apparently this challenge divides participants into two categories: people who prototype, and people who don't. My team oriented ourselves to the task, developed a plan of attack, and built a structure. We lost. You know who consistently does well at this challenge? Children in kindergarten. They build, then refine, then build again. Crazy.
@@ -18,6 +21,8 @@ It didn't take long for my partner and I to identify an interaction that was les
 
 # Our Approach
 We jotted down a handful of small fixes that could be implemented to organize the information better and make the "path of least resistance" a bit clearer. We only made one test model, though, so we limited implementation to two of our ideas.
+
+![Paper Prototype]({{ site.url }}/img/paper_prototype.jpg)
 
 ## Test Changes
 - We made the progress bar at the top of the screen larger and included indicators for outbound and returning flights.
