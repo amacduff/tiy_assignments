@@ -7,8 +7,6 @@ excerpt: Blah blah blah Yadda yadda yadda
 ---
 *[UI]: User Interface
 
-{{ post.excerpt }}
-
 # The Marshmallow Challenge
 Today at The Iron Yard we (the UI Design class) started our day with a challenge. A marshmallow challenge, to be specific. We were split up into groups and given twenty sticks of spaghetti, one yard of tape, one yard of string, and one marshmallow. Each group was then given eighteen minutes to build the tallest free-standing structure they could, with the marshmallow on top. Apparently this challenge divides participants into two categories: people who prototype, and people who don't. My team oriented ourselves to the task, developed a plan of attack, and built a structure. We lost. You know who consistently does well at this challenge? Children in kindergarten. They build, then refine, then build again. Crazy.
 
