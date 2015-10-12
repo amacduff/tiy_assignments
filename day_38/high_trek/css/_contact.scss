@@ -1,0 +1,52 @@
+/* Contact */
+
+form p {
+	font-style: italic;
+	margin: 0 0 2rem 0;
+}
+
+form label {
+	color: $secondary-color;
+	font-size: 1.35rem;
+	font-weight: 300;
+	padding: 2rem 0 0.5rem 0;
+}
+
+form input,
+form label {
+	display: block;
+}
+
+form input,
+textarea {
+	background-color: #eee;
+	border: 1px solid $tertiary-color;
+	min-width: 20rem;
+	padding: 10px;
+	width: 60%;
+}
+
+textarea {
+	min-height: 10rem;
+}
+
+form input:focus,
+textarea:focus {
+	background-color: $light-color;
+}
+
+form button {
+	background-color: $light-color;
+	border: 1px solid $primary-color;
+	color: $primary-color;
+	display: block;
+	margin-top: 2rem;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+form button:hover {
+	background-color: $primary-color;
+	color: $light-color;
+}
+

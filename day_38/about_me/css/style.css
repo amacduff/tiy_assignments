@@ -1,0 +1,80 @@
+/* Variables */
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One+SC|IM+Fell+English:400,400italic);
+/* Global Styles */
+body {
+  background-image: url("../img/001.jpg");
+  background-size: cover;
+  color: #333333;
+  font-family: "IM Fell English", "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+p {
+  font-size: 1.75rem;
+  line-height: 1.5em;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #333333;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Headings */
+h1 {
+  color: #FFFFFF;
+  font-family: "Bowlby One SC", "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-size: 3rem;
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+/* Sections */
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 2px solid #333333;
+  margin-bottom: 4rem;
+  padding-bottom: 1rem;
+}
+
+.details {
+  padding-bottom: 4rem;
+}
+
+footer {
+  border-top: 2px solid #333333;
+  clear: both;
+  padding-top: 3rem;
+}
+footer p {
+  font-size: 2rem;
+}
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+  .wrapper {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 860px) {
+  .details {
+    float: left;
+    margin-right: 10%;
+    width: 45%;
+  }
+  .details:last-child {
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

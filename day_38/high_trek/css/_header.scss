@@ -1,0 +1,57 @@
+/* Header */
+
+header {
+	// background: $primary-color url("../img/hero.jpg") no-repeat center center;
+	// background-size: cover;
+	height: 302px;
+	overflow: hidden;
+
+	& h1,
+	& p {
+		text-shadow: 0 0 5px $dark-color;
+	}
+
+}
+
+/* =Navigation */
+
+.topnav {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 87.174349%;
+	
+	& ul {
+		float: right;
+		margin: 14px 0 14px 0;
+		padding: 0;
+
+		& li {
+			display: inline-block;
+			height: 18px;
+			margin-right: 20px;
+			
+			.topnav ul li:last-child {
+				margin-right: 0;
+			}
+
+		}
+
+	}
+
+}
+
+.top-logo {
+	float: left;
+	width: 46px;
+}
+
+
+
+.search:before {
+	content: url("../img/search.png");
+	padding-right: 3px;
+	vertical-align: middle;
+}
+
+
+

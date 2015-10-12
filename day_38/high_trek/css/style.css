@@ -1,0 +1,455 @@
+/* Variables */
+/* Global Styles */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
+
+a {
+  color: #ffffff;
+  font-weight: 100;
+  letter-spacing: 0.03em;
+  padding-bottom: 5px;
+  text-decoration: none; }
+  a:hover {
+    border-bottom: 1px solid #ffffff; }
+
+img {
+  max-width: 100%; }
+
+/* Header */
+header {
+  height: 302px;
+  overflow: hidden; }
+  header h1, header p {
+    text-shadow: 0 0 5px #333333; }
+
+/* =Navigation */
+.topnav {
+  margin: 10px auto;
+  overflow: hidden;
+  width: 87.174349%; }
+  .topnav ul {
+    float: right;
+    margin: 14px 0 14px 0;
+    padding: 0; }
+    .topnav ul li {
+      display: inline-block;
+      height: 18px;
+      margin-right: 20px; }
+      .topnav ul li .topnav ul li:last-child {
+        margin-right: 0; }
+
+.top-logo {
+  float: left;
+  width: 46px; }
+
+.search:before {
+  content: url("../img/search.png");
+  padding-right: 3px;
+  vertical-align: middle; }
+
+/* Headings */
+h1,
+header p {
+  color: #ffffff;
+  margin: 0 auto 0 auto;
+  max-width: 82%;
+  text-align: center; }
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 55px; }
+
+h2 {
+  color: #202737;
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin: 0 auto 3px auto; }
+
+h3 {
+  color: #534f4c;
+  font-size: 1.35rem;
+  font-weight: 300;
+  height: 15px;
+  line-height: 0.65em;
+  margin: 0;
+  padding: 23px 0 0 0;
+  text-align: center; }
+
+h4 {
+  color: #9c9d9f;
+  font-weight: 300;
+  line-height: 0.75rem;
+  margin: 0; }
+
+header p {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 0.03em;
+  line-height: 1.25em;
+  margin-top: 0.5rem; }
+
+/* Sections */
+.content {
+  box-sizing: border-box;
+  margin: 0 auto 38px auto;
+  overflow: hidden;
+  padding-top: 23px;
+  width: 87.174349%; }
+
+.post-title {
+  color: #202737;
+  overflow: hidden; }
+
+.avatar.sm {
+  float: left;
+  margin-right: 10px;
+  width: 32px; }
+
+.avatar img {
+  border-radius: 50%; }
+
+.post-data {
+  float: left;
+  font-size: 0.85rem;
+  margin: 10px 0 44px 0; }
+
+p {
+  clear: both;
+  color: #534f4c;
+  line-height: 1.75rem;
+  margin-top: 49px; }
+
+.ig-img {
+  float: left;
+  margin-bottom: 38px;
+  margin-top: 28px;
+  width: 49%; }
+  .ig-img.left {
+    margin-right: 2%; }
+
+.post {
+  clear: both; }
+
+blockquote {
+  border-left: 1px solid #534f4c;
+  color: #847766;
+  padding-left: 33px;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.7em;
+  margin: 40px 0; }
+
+.bio {
+  border-top: 1px solid #534f4c;
+  margin-top: 45px;
+  padding-top: 48px; }
+
+.avatar.big {
+  margin: 0 auto;
+  width: 150px; }
+
+.bio p {
+  font-style: italic;
+  height: 15px;
+  line-height: 0.85em;
+  margin: 9px 0 0 0;
+  text-align: center; }
+
+.social {
+  border-bottom: 1px solid #534f4c;
+  margin-top: 42px;
+  padding-bottom: 35px; }
+  .social h3 {
+    margin: 0;
+    padding: 20px 0; }
+  .social a {
+    display: block;
+    font-size: 1.35rem;
+    margin-bottom: 6px;
+    padding: 15px 0;
+    text-align: center; }
+    .social a:hover {
+      border-bottom: 0; }
+
+#fb {
+  background-color: #3c5a9a; }
+  #fb:hover {
+    background-color: #4f71ba; }
+
+#ig {
+  background-color: #3e729a; }
+  #ig:hover {
+    background-color: #528cb9; }
+
+#tw {
+  background-color: #55aded; }
+  #tw:hover {
+    background-color: #83c3f2; }
+
+.social a:last-child {
+  margin-bottom: 0; }
+
+.featured {
+  margin: 40px 0; }
+
+h1.article-link {
+  height: 217px;
+  margin: 0 0 30px 0;
+  padding: 9.2% 18% 0 9.6%;
+  text-align: left; }
+
+h1.article-link a {
+  font-size: 3.35rem;
+  font-weight: 700;
+  letter-spacing: 0.05em; }
+
+h1.article-link a:hover {
+  border-bottom: 0; }
+
+#gardening {
+  background: #202737 url("../img/bluberries.jpg") no-repeat center center; }
+
+#tech {
+  background: #202737 url("../img/san_francisco.jpg") no-repeat center center; }
+
+#lost {
+  background: #202737 url("../img/woods.jpg") no-repeat center center; }
+
+#gardening,
+#tech,
+#lost {
+  background-size: cover; }
+
+/* Footer */
+footer {
+  background-color: #373e46;
+  clear: both;
+  font-weight: 100;
+  overflow: hidden; }
+
+.info {
+  margin: 43px auto 0 auto;
+  width: 43%;
+  text-align: center; }
+
+.bottom-logo {
+  margin: 0 auto;
+  width: 43px; }
+
+.copy p {
+  color: #ffffff;
+  margin: 13px 0 0 0;
+  text-align: center; }
+
+.bottomnav {
+  overflow: hidden;
+  padding: 13px 0 50px 0; }
+
+.bottomnav ul {
+  margin: 0;
+  padding: 0; }
+
+.bottomnav ul li {
+  border-right: 1px solid #ffffff;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 13px; }
+
+.bottomnav ul li:last-child {
+  border: 0; }
+
+/* Contact */
+form p {
+  font-style: italic;
+  margin: 0 0 2rem 0; }
+
+form label {
+  color: #534f4c;
+  font-size: 1.35rem;
+  font-weight: 300;
+  padding: 2rem 0 0.5rem 0; }
+
+form input,
+form label {
+  display: block; }
+
+form input,
+textarea {
+  background-color: #eee;
+  border: 1px solid #9c9d9f;
+  min-width: 20rem;
+  padding: 10px;
+  width: 60%; }
+
+textarea {
+  min-height: 10rem; }
+
+form input:focus,
+textarea:focus {
+  background-color: #ffffff; }
+
+form button {
+  background-color: #ffffff;
+  border: 1px solid #202737;
+  color: #202737;
+  display: block;
+  margin-top: 2rem;
+  padding: 10px;
+  text-transform: uppercase; }
+
+form button:hover {
+  background-color: #202737;
+  color: #ffffff; }
+
+/* Media Queries */
+@media screen and (min-width: 620px) {
+  .bio {
+    border-top: 0;
+    float: left;
+    margin: 0 2% 0 0;
+    padding: 30px 0 0 0;
+    width: 49%; }
+
+  .social {
+    border-bottom: 0;
+    float: right;
+    width: 49%; }
+
+  .featured {
+    clear: both; }
+
+  .info {
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    padding: 36px 28px;
+    width: 100%; }
+
+  .bottom-logo {
+    float: left;
+    padding-right: 25px; }
+
+  .copy {
+    float: left;
+    padding-top: 10px; }
+
+  .copy p {
+    margin: 0; }
+
+  .bottomnav {
+    float: right;
+    padding: 14px 40px 0 0; } }
+@media screen and (min-width: 800px) {
+  .wrapper {
+    width: 75%; }
+
+  header {
+    height: 482px; }
+
+  .topnav,
+  .content {
+    width: 93.75%; }
+
+  .topnav ul li {
+    margin: 0 30px; }
+
+  .topnav ul li:last-child {
+    margin: 0 30px 0 10px; }
+
+  header h1 {
+    font-size: 5rem;
+    margin-top: 115px; }
+
+  header p {
+    font-size: 2.25rem; }
+
+  h2 {
+    font-size: 2.15rem; }
+
+  .avatar.sm {
+    margin-top: 10px; }
+
+  .post-data {
+    margin: 20px 0 44px 0; }
+
+  .content {
+    margin-bottom: 68px; }
+
+  article {
+    float: left;
+    margin-right: 4%;
+    width: 56%; }
+
+  .sidebar {
+    float: left;
+    width: 40%; }
+
+  div.bio,
+  .social {
+    width: 100%; }
+
+  .ig-img {
+    margin-top: 15px; }
+
+  blockquote {
+    font-size: 1.5rem;
+    margin: 20px 0; }
+
+  p {
+    margin-top: 36px; }
+
+  .social {
+    border-bottom: 1px solid #534f4c;
+    margin-top: 42px; }
+
+  .social a {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 1.5% 0 0;
+    width: 31.5%; }
+
+  .social a:last-child {
+    margin-right: 0; }
+
+  .featured {
+    margin-bottom: 15px; }
+
+  h1.article-link {
+    margin-bottom: 5px; }
+
+  #gardening {
+    height: 148px;
+    width: 100%; }
+
+  h1#gardening.article-link a {
+    font-size: 2.25rem; }
+
+  h1#tech,
+  h1#lost {
+    float: left;
+    height: 145px;
+    padding: 0;
+    width: 49%; }
+
+  h1#tech {
+    margin-right: 2%; }
+
+  h1#tech.article-link a,
+  h1#lost.article-link a {
+    font-size: 1.75rem; } }
+@media screen and (min-width: 1200px) {
+  .topnav,
+  .content {
+    width: 60%; }
+
+  .footer-wrapper {
+    margin: 0 auto;
+    width: 65%; } }
+
+/*# sourceMappingURL=style.css.map */

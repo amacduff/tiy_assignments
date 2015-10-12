@@ -1,0 +1,27 @@
+/* Sections */
+
+.wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	border-bottom: 2px solid $color-primary;
+	margin-bottom: 4rem;
+	padding-bottom: 1rem;
+}
+
+.details {
+	padding-bottom: 4rem;
+}
+
+footer {
+	border-top: 2px solid $color-primary;
+	clear: both;
+	padding-top: 3rem;
+
+	p {
+		font-size: 2rem;
+	}
+
+}

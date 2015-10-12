@@ -1,0 +1,47 @@
+/* Footer */
+
+footer {
+	background-color: $footer-color;
+	clear: both;
+	font-weight: 100;
+	overflow: hidden;
+}
+
+.info {
+	margin: 43px auto 0 auto;
+	width: 43%;
+	text-align: center;
+}
+
+.bottom-logo {
+	margin: 0 auto;
+	width: 43px;
+}
+
+.copy p {
+	color: $light-color;
+	margin: 13px 0 0 0;
+	text-align: center;
+}
+
+.bottomnav {
+	overflow: hidden;
+	padding: 13px 0 50px 0;
+}
+
+.bottomnav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.bottomnav ul li {
+	border-right: 1px solid $light-color;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 13px;
+}
+
+.bottomnav ul li:last-child {
+	border: 0;
+}
+
