@@ -1,0 +1,81 @@
+# Portfolio Research Questions
+
+## List 3 to 5 adjectives you would use to describe me (good and bad!)
+- passionate
+- particular
+- funny
+- smart
+- quirky
+- loyal
+- sarcastic
+- talented
+- funny
+- motivator
+- helper
+- visionary
+- pensive
+- contemplative
+- witty
+- winsome
+- intelligent
+- compassionate
+- creative
+- intense
+- witty
+- contemplative
+- soft spoken
+- funny
+- compassionate 
+- cautious
+- tidy
+- sensitive
+- detail-oriented
+- generous
+- intelligent
+- hard working
+- thorough
+- honest
+- loving spirit
+- creative
+- thoughtful
+- cautious
+- fastidious
+- disciplined
+- detailed
+- deep
+- pensive
+- well-kept
+- artistic
+- fastidious
+- inquisitive
+- creative
+- determined
+- thoughtful
+- creative
+- devoted
+
+## Name a color that you think represents me well (feel free to send a picture with the color if you have an exact shade in mind - or just be descriptive!)
+- teal
+- yellow-green
+- orange
+- gray
+- olive green
+- dark brown
+- cobalt blue
+- brick
+- ultramarine blue
+- blue
+- open ocean blue
+- true blue
+
+## Name what superpower you would imagine me having, if I had one
+- some sort of witchcraft or enchanting people
+- the ability to use your finger to draw objects that immediately come into existence
+- compassion
+- the ability to read people’s minds
+- laser vision
+- mind-reading
+- resiliency
+- invisibility
+- x-ray vision
+
