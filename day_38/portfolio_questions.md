@@ -53,6 +53,15 @@
 - thoughtful
 - creative
 - devoted
+- creative
+- thoughtful
+- faithful
+- serious
+- music-loving
+- kind
+- creative
+- inquisitive 
+- supportive
 
 ## Name a color that you think represents me well (feel free to send a picture with the color if you have an exact shade in mind - or just be descriptive!)
 - teal
@@ -67,6 +76,8 @@
 - blue
 - open ocean blue
 - true blue
+- electric blue
+- stone blue
 
 ## Name what superpower you would imagine me having, if I had one
 - some sort of witchcraft or enchanting people
@@ -78,4 +89,6 @@
 - resiliency
 - invisibility
 - x-ray vision
+- sound manipulation?
+- mind reading
 
