@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes / Thoughts</title>
+    <description>Designer person living in beautiful Austin, Texas. Currently a student at The Iron Yard. I love coffee and breakfast tacos.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Sep 2015 22:24:40 -0500</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2015 22:24:40 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Five Things I Learned From My Hackathon Experience</title>
+        <description>&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+&lt;p&gt;This past weekend I participated in a hackathon (as the title of the post suggests). It’s something I knew would be challenging, but had no idea what to expect, having never done anything like this before. All I knew was that I’d be working together with students from the Front End and Ruby cohorts to create a web app over the course of a weekend. As if that wasn’t intimidating enough, I had heard a fair amount of horror stories from Iron Yard alums, suggesting there would be an overwhelming workload, little to no sleep, technical problems aplenty, and a very real possibility of nervous breakdown. Needless to say, I wasn’t feeling overly enthused.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, I was put on a team with some really great people who really knew their stuff. I designed as best I could, tried to pull my own weight, and for the most part kept myself out of trouble. In the end, I was pretty proud of what we accomplished, given the amount of time we had to work with. Bottom line: I survived. And now that I’m on the other side of it, here are some thoughts about my experience.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-i-learned&quot;&gt;What I Learned&lt;/h1&gt;
+
+&lt;h2 id=&quot;a-renewed-respect-for-web-developers&quot;&gt;A Renewed Respect for Web Developers&lt;/h2&gt;
+&lt;p&gt;I’ll be honest: since I started at The Iron Yard I’ve stepped up my HTML &amp;amp; CSS game a bit. I’ve learned some cool stuff and made some cool things. I had gotten to the point where I would get to the end of a project and look at all the code I’d written and just think, &lt;em&gt;Wow, I can’t believe I wrote all that in just a few hours&lt;/em&gt;. But when I started working with the Front End and Ruby peeps, I was blown away at how much code they wrote. Over the course of the weekend they probably wrote hundreds, if not thousands, of lines of code. It’s not even comparable to what I do.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-power-of-working-in-close-proximity&quot;&gt;The Power of Working in Close Proximity&lt;/h2&gt;
+&lt;p&gt;I was fortunate to be in a group that stuck together the whole weekend. We all worked at the same table, pretty much the entire time. It’s so much easier (and faster) to communicate in person than basically any other way. Some other groups split up and tried to work remotely, and struggled because of it. In a project like this, communication is key. And working in close proximity fosters communication a lot better than any alternative.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-agony-of-setbacks&quot;&gt;The Agony of Setbacks&lt;/h2&gt;
+&lt;p&gt;In a project of this magnitude, setbacks are a reality. My team learned that first hand when we lost several hours of our weekend to a minor misspelling. One typo among hundreds of lines of code is hard to find, and it can halt progress for a significant amount of time. Additionally, even though there was no blame, the person responsible felt a huge amount of frustration over the ordeal.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-healthy-fear-of-the-power-of-git&quot;&gt;A Healthy Fear of the Power of Git&lt;/h2&gt;
+&lt;p&gt;This one’s pretty short: Git is no joke. It’s amazing what a powerful tool it is. And while I realize merge conflicts are part of the process, I still feel a little anxiety about the possibility of a major “spaghetti code” type merge scenario.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-value-of-camaraderie&quot;&gt;The Value of Camaraderie&lt;/h2&gt;
+&lt;p&gt;I’m not gonna lie; this weekend was hard work, and parts of it were stressful. There were a few times when I wondered if I was going to get my portion of the work done on time. But there were a lot of good times, too. The ability to band together as a group really makes the whole hackathon experience less intimidating.&lt;/p&gt;
+
+&lt;h1 id=&quot;in-summary&quot;&gt;In Summary&lt;/h1&gt;
+&lt;p&gt;I’m not sure what I was expecting going into this hackathon. I suppose I was expecting it to be hard, and it was. Technology failed us. Instructors were conspicuously absent. At times it felt as if we were being set up to fail. But in the end, we figured out workarounds, we were forced to be resourceful, and we learned a lot in the process. And at the end of the day, that’s what the whole thing was about: learning.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Sep 2015 07:54:56 -0500</pubDate>
+        <link>http://yourdomain.com/the-iron-yard/2015/09/28/hackathon.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-iron-yard/2015/09/28/hackathon.html</guid>
+        
+        
+        <category>the-iron-yard</category>
+        
+      </item>
+    
+      <item>
+        <title>Personas</title>
+        <description>&lt;h1 id=&quot;a-little-story&quot;&gt;A Little Story&lt;/h1&gt;
+&lt;p&gt;A couple years ago I had a few meetings with a company in Austin about a possible job doing UI design. They suggested I read a book by Alan Cooper called &lt;em&gt;The Inmates Are Running the Asylum&lt;/em&gt;, so I happily obliged. What could it hurt, right? In the end I didn’t get the job, but I chalk it up as a good experience, because that book changed the way I think about how I design things. One of the things that really stuck with me was the idea of personas, a user archetype you can refer to when designing user interactions. I had previously tried to make websites that were easy for people to use, but I really had no idea what that meant. I loved the idea of designing for someone other than myself or my client (friend). Unfortunately I sort of shelved the concept away as something cool I had once read, and never really put it into practice. So it’s been cool learning about personas at The Iron Yard, and how to utilize them to make better design choices.&lt;/p&gt;
+
+&lt;h1 id=&quot;an-assignment&quot;&gt;An Assignment&lt;/h1&gt;
+&lt;p&gt;Today we had an assignment to create three personas for the Duolingo web app. We were then to create one user scenario, one use case, one user flow, and identify three possible items to test and optimize. I thought I’d introduce one of my personas and share some details of the assignment.&lt;/p&gt;
+
+&lt;h2 id=&quot;elroy&quot;&gt;Elroy&lt;/h2&gt;
+&lt;p&gt;The first persona I created is Elroy. He’s a teenager taking a foreign language class in high school. He likes to play games in his free time. He’s not doing well in his class and needs to bring up his grade, but can’t afford a tutor. Additionally, he doesn’t have the attention span for another book.&lt;/p&gt;
+
+&lt;p&gt;Simply put, an archetype is a very typical example of a certain person or thing. And a persona is an archetype of a user. So far the hard part of creating a persona, for me, is attempting to strike a balance between too vague and too specific. It’s challenging to make up someone who is typical, but not a stereotype. So I tried to think of Elroy as a real kid. To me, he seems typical, but not too real. Maybe I should have added a personal detail, like that he would rather be playing soccer than reading a book; something to make him less generic.&lt;/p&gt;
+
+&lt;h2 id=&quot;user-scenario&quot;&gt;User Scenario&lt;/h2&gt;
+&lt;p&gt;Elroy told his teacher that he’s using Duolingo to help him learn his language better, and they thought it was a great idea. Now his teacher wants to track his learning progress. Elroy needs to show his teacher what he has learned and where he needs more practice.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-case&quot;&gt;Use Case&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Elroy navigates to duolingo.com.&lt;/li&gt;
+  &lt;li&gt;He clicks on the “Settings” link under his username in top navigation.&lt;/li&gt;
+  &lt;li&gt;He clicks on “Progress Sharing” from the links in the right sidebar.&lt;/li&gt;
+  &lt;li&gt;He inputs information for his teacher and class and clicks “Save Changes.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;elroys-3-possible-items-to-test-and-optimize&quot;&gt;Elroy’s 3 Possible Items to Test and Optimize&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wording, size, color, and placement of the call to action “Set Your Daily Goal”&lt;/li&gt;
+  &lt;li&gt;Typeface, size, color, and placement of the wording of questions&lt;/li&gt;
+  &lt;li&gt;Color and styling of focus states for selecting answer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;testing&quot;&gt;Testing&lt;/h2&gt;
+&lt;p&gt;To test each of these things, I would start with some sort of hypothesis on what I expected the results to be, based on existing research and studies. In the case of the focus state for answer selection, I would hypothesize that a blue focus state would work better than a red indicator, or even a blue one, because red and green carry meaning for a lot of people of being wrong and right, so that could be confusing for a user.&lt;/p&gt;
+
+&lt;p&gt;I would then set a goal for testing. In the case of the “Set Your Daily Goal” button, I would be testing multiple variations of the button to see which wording, style, and placement was more effective in getting users to set a daily goal to return to the site.&lt;/p&gt;
+
+&lt;p&gt;I would use multivariate and A/B testing to find out which option was most effective in providing a better user experience.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Sep 2015 07:54:56 -0500</pubDate>
+        <link>http://yourdomain.com/the-iron-yard/2015/09/23/personas.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-iron-yard/2015/09/23/personas.html</guid>
+        
+        
+        <category>the-iron-yard</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS Zen Garden</title>
+        <description>&lt;h1 id=&quot;project-details&quot;&gt;Project Details&lt;/h1&gt;
+&lt;p&gt;This past weekend I had an assignment, for my course at The Iron Yard, to create a CSS Zen Garden. If you’ve never heard of it, The CSS Zen Garden is a challenge put forth by Dave Shea to create a unique website design using purely CSS. Everyone who participates in the challenge uses the same HTML file, which is not to be edited. The goal of the project is to show what can be done using only CSS.&lt;/p&gt;
+
+&lt;p&gt;The CSS Zen Garden has been around for more than a decade, and has become a rite of passage for web designers. Anyone can submit a design, and those that are deemed worthy get the honor of being featured in the CSS Zen Garden archives alongside hosts of notable designers, and of course all the fame and recognition that entails (mainly high fives at dribbble meetups). All that to say, in the world of web design, the CSS Zen Garden is kind of a big deal.&lt;/p&gt;
+
+&lt;h1 id=&quot;project-requirements&quot;&gt;Project Requirements&lt;/h1&gt;
+&lt;p&gt;We were given three days to create a stylesheet, and each student was assigned an art movement to use as a basis for their work. Additionally, we were given a few basic requirements. Our design was to include:
+- 1 :before element
+- 1 :after element
+- 1 CSS animation
+- 2 breakpoints&lt;/p&gt;
+
+&lt;h1 id=&quot;my-approach&quot;&gt;My Approach&lt;/h1&gt;
+&lt;p&gt;Some of the most popular CSS Zen Garden designs have been created by people I look up to, so this assignment was especially challenging for me. Browsing through the archives, it was hard to imagine I could ever create anything as glorious as what I saw. But I tried to remind myself that from its inception, this was meant to be a learning exercise. Plus it was an assignment for school, so I needed to get on with it.&lt;/p&gt;
+
+&lt;p&gt;I was assigned op art as the theme for my work. I had never even heard of it! After some quick googling I learned that op art is mainly optical illusions based on Gestalt theory. Pretty cool, but I had no idea how to translate this into a cohesive design for the web. So I decided to do some more research. I read up on op art and its artists’ goals, looked at a lot of imagery that made my eyes cross and my vision blur. In the end, I decided that the core of op art is tricking the eye into seeing something that’s not there, be it movement, an extra dimension, etc. This gave me a better idea for how to tackle this beast.&lt;/p&gt;
+
+&lt;h1 id=&quot;execution&quot;&gt;Execution&lt;/h1&gt;
+&lt;p&gt;At first I had some pretty big plans for the design. I made some sketches that included 3D text and images, and it looked pretty cool on paper. I was also pretty stubbornly set on not using background images to achieve this effect. I knew that with CSS it is possible to create perspective, and I had a couple strategies in mind.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, those things didn’t work quite the way I thought they did. After a time of scouring the web for an answer to my problem, I came up with no real solution to my problem, so I decided to go another route. I ended up going with a pretty minimal design, trying to balance simple, readable type and a good amount of white space with a few big images of op art. Once finished, I was fairly pleased with what I had created. I think with a few tweaks, I could submit my work with some degree of confidence that it wouldn’t end up on the wall of shame.&lt;/p&gt;
+
+&lt;h1 id=&quot;in-summary&quot;&gt;In Summary&lt;/h1&gt;
+&lt;p&gt;In terms of my goals for the assignment, I think I was successful. I created a design that is (relatively) visually appealing and easy to get through. Looking back, I could have used background images to create the effect I had originally hoped for. And while that would have been a compromise, I still would have been stretching myself a bit more.&lt;/p&gt;
+
+&lt;p&gt;One of the things I love about being at The Iron Yard is seeing my classmates’ work. It’s cool to see how everyone will come up with their own unique solution to a design problem. Seeing other people push themselves to try new things and do more has really inspired me to do the same. I’ve already made a couple revisions to my design that I think make it work better. I want to keep experimenting and pushing the boundaries of what I can do with code. I want to stop being afraid to fail. I want to get all I can out of this program. I can’t afford to play it safe.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Sep 2015 07:54:56 -0500</pubDate>
+        <link>http://yourdomain.com/the-iron-yard/2015/09/21/css-zen-garden.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-iron-yard/2015/09/21/css-zen-garden.html</guid>
+        
+        
+        <category>the-iron-yard</category>
+        
+      </item>
+    
+      <item>
+        <title>Accessibility</title>
+        <description>&lt;p&gt;This week in my classes at The Iron Yard we’ve been talking about web accessibility. It has been really eye opening for me. I guess because in the past I have tried to use good contrast and make text large enough in my designs, I thought I was making accessible sites. But as we’ve been going through this stuff, I’ve realized how badly I have been missing the mark.&lt;/p&gt;
+
+&lt;p&gt;At first, I felt really convicted about my previous lack of attention to this stuff, and I felt excited to learn more about this topic. As we really started delving into this stuff, though, I’ll admit my excitement started to wane. There’s just so many things to take into consideration, it all felt overwhelming. In a very selfish line of thinking, it seemed like a lot of extra work (and code) for something with no measurable product.&lt;/p&gt;
+
+&lt;p&gt;Now, don’t get me wrong; I care about accessibility. The trouble for me is just knowing how much to do, and where to start. So I’ve made a list of ten things to implement in my next project, to strive towards making interfaces that are easy for &lt;em&gt;anyone&lt;/em&gt; to use.&lt;/p&gt;
+
+&lt;h1 id=&quot;tips-for-designing-more-accessible-websites&quot;&gt;10 Tips for Designing More Accessible Websites&lt;/h1&gt;
+
+&lt;h2 id=&quot;separate-content-from-presentation&quot;&gt;Separate content from presentation&lt;/h2&gt;
+&lt;p&gt;Plain and simple: keep your CSS outta your HTML.&lt;/p&gt;
+
+&lt;h2 id=&quot;write-clearly-and-simply&quot;&gt;Write clearly and simply&lt;/h2&gt;
+&lt;p&gt;This one is challenging. Basically: organize your thoughts, get to the point, don’t talk down to your audience, avoid jargon, use correct grammar, and check your spelling.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-proper-semantic-structure-to-organize-content&quot;&gt;Use proper semantic structure to organize content&lt;/h2&gt;
+&lt;p&gt;Use HTML elements properly. Headings are for structuring content, not styling it. Don’t skip a heading because it’s not the right size. That’s what CSS is for. Don’t use lists or tables for layout; that’s just silly.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-good-color-contrast&quot;&gt;Use good color contrast&lt;/h2&gt;
+&lt;p&gt;This is another tricky one. Use a tool like &lt;a href=&quot;http://webaim.org/resources/contrastchecker&quot;&gt;WebAIM’s Color Contrast Checker&lt;/a&gt; to check your color contrast.&lt;/p&gt;
+
+&lt;h2 id=&quot;include-alt-text-for-images&quot;&gt;Include alt text for images&lt;/h2&gt;
+&lt;p&gt;Use alternative text to describe the content and function of images. Be descriptive, be succinct, and be aware of context. Oh, and be sensible. Don’t use alt text for purely decorative images.&lt;/p&gt;
+
+&lt;h2 id=&quot;give-links-descriptive-names&quot;&gt;Give links descriptive names&lt;/h2&gt;
+&lt;p&gt;Avoid “click here” links.&lt;/p&gt;
+
+&lt;h2 id=&quot;provide-an-option-to-skip-to-main-content&quot;&gt;Provide an option to skip to main content&lt;/h2&gt;
+&lt;p&gt;Truth be told, “skip navigation” links are a bit burdensome. But then, so is waiting for a screen reader to go through twenty navigation options to get to some real content.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-forms-for-ease-of-use&quot;&gt;Design forms for ease of use&lt;/h2&gt;
+&lt;p&gt;Name form fields appropriately and make them tab-able (tabbable?). Also, don’t use CAPTCHAs; they’re annoying anyway.&lt;/p&gt;
+
+&lt;h2 id=&quot;ensure-all-content-can-be-accessed-with-the-keyboard-alone&quot;&gt;Ensure all content can be accessed with the keyboard alone&lt;/h2&gt;
+&lt;p&gt;This one’s not too hard, just put the mouse aside and do a keyboard test. And for the love of Pete, don’t hide focus indicators.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-aria&quot;&gt;Use ARIA&lt;/h2&gt;
+&lt;p&gt;ARIA (Accessible Rich Internet Applications) is a way to add specificity to your HTML elements. Use roles like “navigation” and “menu”, landmarks like “banner” and “main content”, alerts like “live” and “atomic”, and descriptive form text like “described by” or “labeled by”.&lt;/p&gt;
+
+&lt;h1 id=&quot;in-summary&quot;&gt;In Summary&lt;/h1&gt;
+
+&lt;p&gt;Making a website accessible can seem like a truly daunting task. Just thinking about all this stuff makes my head swim a little, and this is a relatively short list. So if I find myself feeling like the addition of these things to my workflow is an inconvenience, I’m going to put my mouse away, close my eyes, and try to use the keyboard and a screen reader to surf the web for a few minutes. I’m pretty sure I’ll feel differently afterward.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Sep 2015 07:54:56 -0500</pubDate>
+        <link>http://yourdomain.com/the-iron-yard/2015/09/17/accessibility.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-iron-yard/2015/09/17/accessibility.html</guid>
+        
+        
+        <category>the-iron-yard</category>
+        
+      </item>
+    
+      <item>
+        <title>Type Study</title>
+        <description>&lt;h1 id=&quot;project-outline&quot;&gt;Project Outline&lt;/h1&gt;
+&lt;p&gt;I’m still hanging in there at &lt;a href=&quot;http://theironyard.com&quot;&gt;The Iron Yard&lt;/a&gt;, and I’m currently working on an assignment to redesign the website of a local restaurant. &lt;em&gt;NOTE: This is purely a learning exercise, just for fun.&lt;/em&gt; I’ve chosen Easy Tiger, a bake shop / beer garden on 6th Street. It’s one of my favorite places in Austin, so it gives me a good excuse to spend a little more time there. You know, for research. It should be a fun project, and I’m pretty excited to share some of my process as I walk through it.&lt;/p&gt;
+
+&lt;h1 id=&quot;research&quot;&gt;Research&lt;/h1&gt;
+&lt;p&gt;I started by taking a page out of Jason Santa Maria’s book, &lt;em&gt;On Web Typography&lt;/em&gt;, and used a word list. Luckily I had already created one as part of the assignment. Some of the words that stood out to me were &lt;em&gt;traditional&lt;/em&gt;, &lt;em&gt;vintage&lt;/em&gt;, &lt;em&gt;heritage&lt;/em&gt;, and &lt;em&gt;hand-crafted&lt;/em&gt;. At Easy Tiger all of their baked goods and the majority of their provisions are made by hand, in-house. They make things the old way, the traditional way. Even their space has a sort of weathered and worn appeal, as if it has been there for ages (it hasn’t). So it only makes sense for any visuals representing the restaurant to have a sort of rustic, distressed (but not grungy) feel.&lt;/p&gt;
+
+&lt;h1 id=&quot;headings&quot;&gt;Headings&lt;/h1&gt;
+&lt;p&gt;I spent a lot of time looking at humanist typefaces, because I wanted to convey a sort of down-to-earth feeling. I’m drawn to humanist typefaces because of their simplicity. But I ended up with a bunch of pretty bland, safe choices. After some encouragement I decided to try something different. So I did some research and chose Alegreya, a serif typeface originally intended for literature. It’s a decided nod to calligraphic lettering, but has a very contemporary feel. One of the best things about it is that it has a true italic, and comes in several weights. I chose a bold weight for the headings and was surprised at how well they give the impression of a pub type atmosphere.&lt;/p&gt;
+
+&lt;h1 id=&quot;body-copy&quot;&gt;Body Copy&lt;/h1&gt;
+&lt;p&gt;I paired the serif type of my headings with a round sans-serif. Lato is a sturdy geometric typeface with a warm feel to it. Its simplicity makes it friendly and inviting, which works well for a local bake shop and beer garden where people flock to socialize, play ping pong and relax. I think the pairing of Alegreya and Lato is a pretty solid one. They both give a sense of stability, but friendliness. Each is clean and elegant in its own way, with a certain amount of &lt;em&gt;character.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;in-summary&quot;&gt;In Summary&lt;/h1&gt;
+&lt;p&gt;At the end of the day, I realize I could have pushed myself more on this assignment. I’d say my main takeaway from this excercise is knowing that type explorations is not the time to play it safe. It’s the time to have fun, be bold, make some crazy choices; you can always rein them in later. This is something that’s hard for me to do, because I fear failure. And even though I know the importance of “failing forward,” it is a daily struggle to put it into practice. When it comes down to it, though, I want to make things that work well and look good. I want to stop playing it safe. I want to start taking more risks.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Sep 2015 07:54:56 -0500</pubDate>
+        <link>http://yourdomain.com/the-iron-yard/2015/09/09/type-study.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-iron-yard/2015/09/09/type-study.html</guid>
+        
+        
+        <category>the-iron-yard</category>
+        
+      </item>
+    
+      <item>
+        <title>A New Adventure</title>
+        <description>&lt;p&gt;My name is Alex. I’m a student at The Iron Yard in Austin, Texas. I’m in my second week of classes, and it’s been a whirlwind of computers and code. I’ve embarked on a twelve-week journey during which I’ll be trained and prepped for a career in UI design, and I thought it might be a good idea to record and share some of my thoughts throughout the process.&lt;/p&gt;
+
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+&lt;p&gt;I’ll start by offering a bit of background to explain my perspective coming into this program. I am a graphic designer. I am also a college dropout. But despite my lack of a degree, I have still pursued a career in design. I have learned a lot about the design process from books, the web, and designers who have been gracious enough to take me under their wings. My experience includes production, prepress, graphic design, illustration, and web work.&lt;/p&gt;
+
+&lt;p&gt;Over the years I’ve earned a few modest achievements, but haven’t had any big breaks. After years of inconsistent freelance work, I decided to go back to school. I took some classes at a community college, applied and was admitted to a four-year university. But a couple months before starting, I started having doubts. I wasn’t excited about the extra classes I would have to take, or the fact I would have to wait four years to start my career. During my time of waffling, a friend suggested I look into The Iron Yard. I had never heard of it, but it only took a few minutes on their website to decide this is what I wanted to do. I filled out the application and started the process to become an Iron Yard student.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-beginning&quot;&gt;The Beginning&lt;/h1&gt;
+&lt;p&gt;We’ve already covered a lot in the first couple weeks of our UI design education. We’ve covered HTML and CSS, learned about the structure of websites and how they’re built, cleaned up our code with Sass, and even jumped head first into grid systems and responsive design. These are all topics I’ve studied on my own, but I have really enjoyed learning about them in a more formal way. Sure, there’s a wealth of information to be found on the internet if you want to teach yourself, and I love that about web design. It’s how I’ve picked up the vast majority of what I know about coding. But there’s just something about learning from an instructor who can help you one-on-one. It has been validating to find that I’ve gotten some things right, on my own, from someone who actually knows what they’re doing. And it’s been equally gratifying to learn how to correct some of my less-than-best practices (so long, &lt;code&gt;!important&lt;/code&gt;, I won’t be using you anymore).&lt;/p&gt;
+
+&lt;h1 id=&quot;in-summary&quot;&gt;In Summary&lt;/h1&gt;
+&lt;p&gt;I may have come to this program with some prior knowledge of the topics we’re studying, but it’s amazing how quickly I’m burning through what I know. Every day I learn something I didn’t know before. Even with the things I knew, I’m learning how to do them better and more efficiently. My goal for the next eleven weeks is to soak up every bit of information I can. I believe like so many things in life, I will only get out of this experience what I put into it. So I am determined to be a sponge and give it my all.&lt;/p&gt;
+
+&lt;p&gt;I’m looking forward to all the things I have yet to learn.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2015 07:54:56 -0500</pubDate>
+        <link>http://yourdomain.com/the-iron-yard/2015/09/04/a-new-adventure.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-iron-yard/2015/09/04/a-new-adventure.html</guid>
+        
+        
+        <category>the-iron-yard</category>
+        
+      </item>
+    
+  </channel>
+</rss>
