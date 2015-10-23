@@ -1,3 +1,440 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/css?family=Alegreya:900,700|Lato:400,700);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: "Lato", sans-serif;
+  font-color: #2e2c2c;
+}
+
+p {
+  line-height: 1.6em;
+  padding-bottom: 2rem;
+}
+
+a {
+  color: #c37012;
+  text-decoration: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+a:hover {
+  color: #ea8a1e;
+}
+
+img {
+  max-width: 100%;
+}
+
+::-moz-selection {
+  background: #f6ad22;
+  color: white;
+}
+
+::selection {
+  background: #f6ad22;
+  color: white;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Headings */
+h1 {
+  color: #f6ad22;
+  font-family: "Alegreya", serif;
+  font-size: 44px;
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  border-bottom: 2px solid #e3decb;
+  color: #6b804f;
+  font-family: "Alegreya", serif;
+  font-size: 28px;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  padding: 4rem 0 1rem 0;
+}
+
+h3 {
+  font-family: "Alegreya", serif;
+  font-size: 28px;
+  font-size: 1.75rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+/* Header */
+header {
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 85%;
+}
+header p {
+  padding-bottom: 0;
+}
+
+#home {
+  background: #544834 url(../img/home_hero.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#menu {
+  background: #544834 url(../img/menu_hero.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+nav ul {
+  padding: 1rem 0.25rem;
+}
+nav ul li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+nav a {
+  color: #fbda9d;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: white;
+}
+nav a.selected {
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 0.25rem;
+}
+
+.logo {
+  margin: auto;
+  padding: 2rem 0 5rem 0;
+  width: 25%;
+}
+
+.sidebar ul {
+  margin: 0 auto;
+  width: 85%;
+}
+.sidebar ul li {
+  padding-bottom: 1rem;
+}
+.sidebar ul li:last-child {
+  padding-bottom: 0;
+}
+
+/* Content */
+.hours {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.hours span {
+  font-size: 80px;
+  font-size: 5rem;
+  font-family: "Alegreya", serif;
+}
+
+#seven {
+  letter-spacing: -0.1em;
+}
+
+.products p {
+  margin-top: 1rem;
+  text-align: center;
+}
+.products ul {
+  line-height: 1.6em;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.products ul li {
+  display: inline-block;
+  font-size: 18.4px;
+  font-size: 1.15rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+
+#about p {
+  line-height: 1.6em;
+}
+
+#location p {
+  font-size: 18.4px;
+  font-size: 1.15rem;
+  line-height: 1.6em;
+  text-align: center;
+  text-transform: uppercase;
+}
+#location p:nth-child(2) {
+  font-size: 48px;
+  font-size: 3rem;
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+}
+#location p a {
+  font-size: 32px;
+  font-size: 2rem;
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+  line-height: 1.6em;
+}
+
+#map {
+  background: url(../img/map.png) center center no-repeat;
+  height: 30.313rem;
+}
+
+.container {
+  margin: 2rem auto;
+  overflow: hidden;
+  width: 85%;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  margin-right: 10%;
+}
+.column:last-child {
+  margin-right: 0;
+}
+
+section {
+  margin-bottom: 6rem;
+  overflow: hidden;
+}
+
+.subtext {
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}
+
+dt {
+  clear: both;
+  float: left;
+  font-size: 18.4px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  max-width: 75%;
+}
+
+.subtext,
+dt,
+dd {
+  line-height: 1.7em;
+  padding-top: 1rem;
+}
+
+dd p {
+  padding: 0;
+}
+
+.price {
+  float: right;
+  text-align: right;
+}
+
+.description {
+  clear: both;
+  float: left;
+  padding-top: 0;
+}
+
+#coffee1,
+#breads1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.special-desc {
+  float: left;
+  text-align: center;
+  width: 70%;
+}
+.special-desc p {
+  font-style: italic;
+  line-height: 1.5em;
+}
+.special-desc p span {
+  font-size: 18.4px;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+aside {
+  background-color: #f5f3ec;
+  margin-bottom: 6rem;
+  padding: 3rem 0;
+}
+
+.special {
+  color: #6b804f;
+  display: block;
+  margin: 0 auto;
+  width: 20rem;
+}
+
+.special-price {
+  float: right;
+  width: 30%;
+}
+.special-price span {
+  font-size: 144px;
+  font-size: 9rem;
+  line-height: 0.45em;
+  vertical-align: top;
+}
+
+#breads {
+  clear: both;
+}
+
 /* Main */
+/* Footer */
+footer {
+  background-color: #f5f3ec;
+  color: #94844e;
+  overflow: hidden;
+  padding: 2rem 0;
+  text-align: center;
+}
+footer ul {
+  padding-bottom: 1rem;
+}
+footer ul li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+footer ul li img {
+  opacity: 0.75;
+  width: 1.875rem;
+}
+footer ul li img:hover {
+  opacity: 1.0;
+}
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+  main {
+    width: 60%;
+  }
+
+  .products {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 860px) {
+  h1 {
+    font-size: 48px;
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 32px;
+    font-size: 2rem;
+  }
+
+  main {
+    width: 85%;
+  }
+
+  .column {
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+  }
+  .column:last-child {
+    margin-right: 0;
+  }
+
+  .subtext {
+    width: 45%;
+  }
+
+  footer p {
+    float: left;
+    line-height: 2em;
+    padding-left: 2rem;
+  }
+
+  footer ul {
+    float: right;
+    padding-right: 2rem;
+  }
+
+  .products {
+    width: 76%;
+  }
+}
+@media screen and (min-width: 1120px) {
+  main {
+    width: 65%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

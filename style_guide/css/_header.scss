@@ -1,0 +1,78 @@
+/* Header */
+
+header {
+	margin: 0 auto;
+	padding: 1rem 0;
+	width: 85%;
+
+	p {
+		padding-bottom: 0;
+	}
+
+}
+
+#home {
+	background: $color-dark url(../img/home_hero.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+#menu {
+	background: $color-dark url(../img/menu_hero.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+nav {
+
+	ul {
+		padding: 1rem 0.25rem;
+
+		li {
+			display: inline;
+			padding: 0 0.5rem;
+		}
+
+	}
+
+	a {
+		color: lighten($color-primary, 25%);
+		text-transform: uppercase;
+
+		&:hover {
+			color: white;
+		}
+
+		&.selected {
+			color: white;
+			border-bottom: 2px solid white;
+			padding-bottom: 0.25rem;
+		}
+
+	}
+
+}
+
+.logo {
+	margin: auto;
+	padding: 2rem 0 5rem 0;
+	width: 25%;
+}
+
+.sidebar {
+
+	ul {
+		margin: 0 auto;
+		width: 85%;
+
+		li {
+			padding-bottom: 1rem;
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+
+		}
+
+	}
+
+}
+

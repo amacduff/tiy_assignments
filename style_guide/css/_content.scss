@@ -1,0 +1,210 @@
+/* Content */
+
+// Home
+
+.hours {
+	font: {
+		@include fntz(1.5);
+		weight: 700;
+	}
+	text-align: center;
+
+	span {
+		font: {
+			@include fntz(5);
+			family: $font-headings;
+		}
+	}
+
+}
+
+#seven {
+	letter-spacing: -0.1em;
+}
+
+.products {
+
+	p {
+		margin-top: 1rem;
+		text-align: center;
+	}
+
+	ul {
+		line-height: 1.6em;
+		margin-top: 0.5rem;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			font: {
+				@include fntz(1.15);
+			}
+			padding: 0 1rem;
+			text-transform: uppercase;
+		}
+
+	}
+
+}
+
+#about {
+
+	p {
+		line-height: 1.6em;
+	}
+
+}
+
+#location {
+
+	p {
+		font: {
+			@include fntz(1.15);
+		}
+		line-height: 1.6em;
+		text-align: center;
+		text-transform: uppercase;
+
+		&:nth-child(2) {
+			font: {
+				@include fntz(3);
+				family: $font-headings;
+				weight: 700;
+			}
+		}
+
+		a {
+			font: {
+				@include fntz (2);
+				family: $font-headings;
+				weight: 700;
+			}
+			line-height: 1.6em;
+		}
+
+	}
+
+}
+
+#map {
+	background: url(../img/map.png) center center no-repeat;
+	height: 30.313rem;
+}
+
+
+// Menu
+
+.container {
+	margin: 2rem auto;
+	overflow: hidden;
+	width: 85%;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.column {
+	@include grid(12);
+}
+
+section {
+	margin-bottom: 6rem;
+	overflow: hidden;
+}
+
+.subtext {
+	font-style: italic;
+	padding-bottom: 0.5rem;
+}
+
+dt {
+	clear: both;
+	float: left;
+	font: {
+		@include fntz(1.15);
+		weight: 700;
+	}
+	max-width: 75%;
+}
+
+.subtext,
+dt,
+dd {
+	line-height: 1.7em;
+	padding-top: 1rem;
+}
+
+dd p {
+	padding: 0;
+}
+
+.price {
+	float: right;
+	text-align: right;
+}
+
+.description {
+	clear: both;
+	float: left;
+	padding-top: 0;
+}
+
+#coffee1,
+#breads1 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.special-desc {
+	float: left;
+	text-align: center;
+	width: 70%;
+
+	p {
+		font-style: italic;
+		line-height: 1.5em;
+
+		span {
+			font: {
+				@include fntz(1.15);
+				style: normal;
+				weight: 700;
+			}
+		}
+
+	}
+
+}
+
+aside {
+	background-color: $color-light;
+	margin-bottom: 6rem;
+	padding: 3rem 0;
+}
+
+.special {
+	color: $color-tertiary;
+	display: block;
+	margin: 0 auto;
+	width: 20rem;
+}
+
+.special-price {
+	float: right;
+	width: 30%;
+
+	span {
+		font: {
+			@include fntz(9);
+		}
+		line-height: 0.45em;
+		vertical-align: top;
+	}
+
+}
+
+#breads {
+	clear: both;
+}
+

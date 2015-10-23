@@ -1,0 +1,46 @@
+/* Global Styles */
+
+body {
+	font: {
+		family: $font-main;
+		color: $color-text;
+	}
+}
+
+p {
+	line-height: 1.6em;
+	padding-bottom: 2rem;
+}
+
+a {
+	color: $color-secondary;
+	text-decoration: none;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+
+	&:hover {
+		color: lighten($color-secondary, 10%);
+	}
+
+}
+
+img {
+	max-width: 100%;
+}
+
+::-moz-selection {
+	background: $color-primary;
+	color: white;
+}
+
+::selection {
+	background: $color-primary;
+	color: white;
+}
+
+em {
+	font-style: italic;
+}
+
