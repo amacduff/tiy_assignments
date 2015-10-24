@@ -1,65 +1,22 @@
 /* Media Queries */
 
-@media screen and (min-width: 600px) {
-
-	main {
-		width: 60%;
-	}
-
-	.products {
-		margin: 0 auto;
-		width: 50%;
-	}
-
-}
-
 @media screen and (min-width: 860px) {
 
-	h1 {
-		font: {
-			@include fntz(3);
-		}
-	}
-
-	h3 {
-		font: {
-			@include fntz(2);
-		}
-	}
-
-	main {
-		width: 85%;
-	}
-
-	.column {
-		@include grid(6);
-	}
-
-	.subtext {
-		width: 45%;
-	}
-
-	footer p {
+	.sidebar {
 		float: left;
-		line-height: 2em;
-		padding-left: 2rem;
+		width: 25%;
+
+		ul {
+			width: 7rem;
+		}
+
 	}
 
-	footer ul {
-		float: right;
-		padding-right: 2rem;
-	}
-
-	.products {
-		width: 76%;
-	}
-
-}
-
-@media screen and (min-width: 1120px) {
-
-	main {
-		width: 65%;
+	.container {
+		box-sizing: border-box;
+		float: left;
+		padding: 0 5%;
+		width: 75%;
 	}
 
 }

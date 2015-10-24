@@ -94,6 +94,11 @@ em {
   font-style: italic;
 }
 
+code {
+  line-height: 1.6em;
+  white-space: pre-wrap;
+}
+
 /* Headings */
 h1 {
   color: #f6ad22;
@@ -142,21 +147,26 @@ header p {
   background-size: cover;
 }
 
-nav ul {
-  padding: 1rem 0.25rem;
+.nav_sample {
+  background: #544834 url(../img/menu_hero.jpg) center center no-repeat;
+  background-size: cover;
 }
-nav ul li {
+.nav_sample ul {
+  padding: 1rem 0.25rem;
+  text-align: center;
+}
+.nav_sample ul li {
   display: inline;
   padding: 0 0.5rem;
 }
-nav a {
+.nav_sample a {
   color: #fbda9d;
   text-transform: uppercase;
 }
-nav a:hover {
+.nav_sample a:hover {
   color: white;
 }
-nav a.selected {
+.nav_sample a.selected {
   color: white;
   border-bottom: 2px solid white;
   padding-bottom: 0.25rem;
@@ -164,8 +174,8 @@ nav a.selected {
 
 .logo {
   margin: auto;
-  padding: 2rem 0 5rem 0;
-  width: 25%;
+  padding: 4rem 0;
+  width: 50%;
 }
 
 .sidebar ul {
@@ -373,6 +383,21 @@ aside {
   padding-bottom: 2rem;
 }
 
+.icon_sample ul {
+  padding-bottom: 1rem;
+}
+.icon_sample ul li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+.icon_sample ul li img {
+  opacity: 0.75;
+  width: 1.875rem;
+}
+.icon_sample ul li img:hover {
+  opacity: 1.0;
+}
+
 /* Footer */
 footer {
   background-color: #f5f3ec;
@@ -397,62 +422,20 @@ footer ul li img:hover {
 }
 
 /* Media Queries */
-@media screen and (min-width: 600px) {
-  main {
-    width: 60%;
-  }
-
-  .products {
-    margin: 0 auto;
-    width: 50%;
-  }
-}
 @media screen and (min-width: 860px) {
-  h1 {
-    font-size: 48px;
-    font-size: 3rem;
-  }
-
-  h3 {
-    font-size: 32px;
-    font-size: 2rem;
-  }
-
-  main {
-    width: 85%;
-  }
-
-  .column {
+  .sidebar {
     float: left;
-    width: 45%;
-    margin-right: 10%;
+    width: 25%;
   }
-  .column:last-child {
-    margin-right: 0;
-  }
-
-  .subtext {
-    width: 45%;
+  .sidebar ul {
+    width: 7rem;
   }
 
-  footer p {
+  .container {
+    box-sizing: border-box;
     float: left;
-    line-height: 2em;
-    padding-left: 2rem;
-  }
-
-  footer ul {
-    float: right;
-    padding-right: 2rem;
-  }
-
-  .products {
-    width: 76%;
-  }
-}
-@media screen and (min-width: 1120px) {
-  main {
-    width: 65%;
+    padding: 0 5%;
+    width: 75%;
   }
 }
 

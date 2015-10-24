@@ -21,10 +21,13 @@ header {
 	background-size: cover;
 }
 
-nav {
+.nav_sample {
+	background: $color-dark url(../img/menu_hero.jpg) center center no-repeat;
+	background-size: cover;
 
 	ul {
 		padding: 1rem 0.25rem;
+		text-align: center;
 
 		li {
 			display: inline;
@@ -53,8 +56,8 @@ nav {
 
 .logo {
 	margin: auto;
-	padding: 2rem 0 5rem 0;
-	width: 25%;
+	padding: 4rem 0;
+	width: 50%;
 }
 
 .sidebar {

@@ -26,3 +26,28 @@
 
 }
 
+.icon_sample{
+
+	ul {
+		padding-bottom: 1rem;
+
+		li {
+			display: inline;
+			padding: 0 0.5rem;
+
+			img {
+				opacity: 0.75;
+				width: 1.875rem;
+
+				&:hover {
+					opacity: 1.0;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+

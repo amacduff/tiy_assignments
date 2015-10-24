@@ -6,6 +6,9 @@
 		<title>Easy Tiger Style Guide</title>
 		<link type="text/css" rel="stylesheet" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/default.min.css">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
 	</head>
 
 	<body>
@@ -31,16 +34,80 @@
 			<section id="voice">
 
 				<h1>Voice and Tone</h1>
+				<p>Easy Tiger is a friendly local shop, and we convey our down-to-earth vibe through the voice and tone of our copy.</p>
 
+				<h2>General Copy</h2>
+				<p>When talking about upcoming events, use a casual, fun voice, as if speaking to a friend.</p>
 
+				<p><em>Example</em></p>
+
+				<p>“We've got ping pong tables out back. Talk about full service!”</p>
+
+				<h2>About Us / Item Descriptions</h2>
+				<p>When talking about our business we use clear, concise verbiage.</p>
+
+				<p><em>Example</em></p>
+
+				<p>“Easy Tiger features artisan bread (including baguettes, croissants, pretzels), locally roasted coffee, housemade meats (sausages, corned beef, pastrami), a full bar and more than 30 local and boutique draft beers.”</p>
 
 			</section>
 
-			<section id="variables">
+			<section id="markup">
 
-				<h1>Variables</h1>
+				<h1>Markup</h1>
+				<p>We use Sass to keep our code as clean and organized as possible. Below are some examples of code used on the site.</p>
 
+				<h2>Grid Mixin</h2>
+				<p>Our site is built on a custom, 12 column grid base.</p>
 
+				<pre><code>
+$tot-width: 100%;
+$tot-num-col: 12;
+$gut-width: 10%;
+$col-width: ($tot-width - (($tot-num-col - 1)*$gut-width))/$tot-num-col;
+
+@mixin grid($col-num) {
+	float: left;
+	width: ($col-width*$col-num)+(($col-num - 1)*$gut-width);
+	margin-right: $gut-width;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+				</code></pre>
+
+				<h2>Rem Conversion Mixin</h2>
+				<p>We use a mixin to convert to pixels and provide a backup for browsers that don't support rem.</p>
+
+				<pre><code>
+@mixin fntz($rem){
+	size: (($rem*16) + px);
+	size: ($rem + rem);
+}
+				</code></pre>
+
+				<h2>Color Variables</h2>
+				<p>We use variables to define color so we can easily make changes at any time.</p>
+
+				<pre><code>
+$color-text: #2e2c2c;
+$color-primary: #f6ad22;
+$color-secondary: #c37012;
+$color-tertiary: #6b804f;
+$color-dark: #544834;
+$color-light: #f5f3ec;
+				</code></pre>
+
+				<h2>Font Variables</h2>
+				<p>We import <a href="http://www.google.com/fonts">Google fonts</a> into a Sass partial and use variables to define type styles.</p>
+
+				<pre><code>
+@import url(https://fonts.googleapis.com/css?family=Alegreya:900,700|Lato:400,700);
+
+$font-headings: "Alegreya", serif;
+$font-main: "Lato", sans-serif;
+				</code></pre>
 
 			</section>
 
@@ -95,23 +162,51 @@
 			<section>
 
 				<h1>Images</h1>
+				<p>Most of the look and feel of our site is achieved through typography and color; images are used sparingly throughout the site.</p>
 
 				<h2>Logo</h2>
+				<p>Our logo is one solid color, only displayed in white or very dark gray, and always with plenty of contrast to ensure legibility.</p>
+
+				<p><em>Example</em></p>
+
+				<div id="home">
+					<div class="logo">
+						<img src="img/logo.png" alt="Easy Tiger Logo White">
+					</div>
+				</div>
+				<div id="home_alt">
+					<div class="logo">
+						<img src="img/logo_gray.png" alt="Easy Tiger Logo Gray">
+					</div>
+				</div>
 
 				<h2>Icons</h2>
+				<p>Like our logo, icons are simple and one color. Icon links are displayed at 75% opacity, changing to 100% on hover.</p>
 
-				<h2>Misc</h2>
+				<p><em>Example</em></p>
+
+				<div class="icon_sample">
+					<ul>
+						<li><a href="http://www.facebook.com/EasyTigerATX" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></li>
+						<li><a href="http://twitter.com/EasyTigerATX" target="_blank"><img src="img/twitter.png" alt="Twitter"></a></li>
+						<li><a href="http://pinterest.com/easytigeraustin" target="_blank"><img src="img/pinterest.png" alt="Pinterest"></a></li>
+						<li><a href="http://instagram.com/easytigeratx" target="_blank"><img src="img/instagram.png" alt="Instagram"></a></li>
+					</ul>
+				</div>
 
 			</section>
 
 			<section>
 
 				<h1>Navigation</h1>
+				<p>Navigation on the site is minimal, but care is taken to ensure ease of use.</p>
 
 				<h2>Primary Navigation</h2>
 				<p>Navigation items are arranged in an inline unordered list and displayed in uppercase.</p>
 
-				<nav>
+				<p><em>Example</em></p>
+
+				<nav class="nav_sample">
 					<ul>
 						<li><a href="#">Menu</a></li>
 						<li><a href="#">Calendar</a></li>
