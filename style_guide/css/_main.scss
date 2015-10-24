@@ -1,4 +1,28 @@
 /* Main */
 
+.type_samples {
 
+	h1 {
+		margin-bottom: 0;
+	}
+
+	h2 {
+		border-bottom: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	p {
+		border-bottom: 2px solid darken($color-light, 10%);
+		margin-bottom: 1rem;
+		padding: 0.25rem 0 1rem 0;
+	}
+
+	.last p {
+		border-bottom: 0;
+		margin-bottom: 0;
+		padding-bottom: 2rem;
+	}
+
+}
 
