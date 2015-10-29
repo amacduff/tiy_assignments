@@ -158,18 +158,26 @@ h1.article-link a {
 	font-size: 3.35rem;
 	font-weight: 700;
 	letter-spacing: 0.05em;
-}
 
-h1.article-link a:hover {
-	border-bottom: 0;
+	&:hover {
+		border-bottom: 0;
+	}
+
 }
 
 #gardening {
 	background: $primary-color url("../img/bluberries.jpg") no-repeat center center;
 }
 
+h1#tech,
+h1#lost {
+	box-sizing: border-box;
+	padding-top: 0.75rem;
+}
+
 #tech {
 	background: $primary-color url("../img/san_francisco.jpg") no-repeat center center;
+
 }
 
 #lost {

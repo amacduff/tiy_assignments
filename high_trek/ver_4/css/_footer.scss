@@ -27,21 +27,24 @@ footer {
 .bottomnav {
 	overflow: hidden;
 	padding: 13px 0 50px 0;
-}
 
-.bottomnav ul {
-	margin: 0;
-	padding: 0;
-}
+	ul {
+		margin: 0;
+		padding: 0;
 
-.bottomnav ul li {
-	border-right: 1px solid $light-color;
-	display: inline-block;
-	list-style-type: none;
-	padding: 0 13px;
-}
+		li {
+			border-right: 1px solid $light-color;
+			display: inline-block;
+			list-style-type: none;
+			padding: 0 13px;
 
-.bottomnav ul li:last-child {
-	border: 0;
+			&:last-child {
+				border: 0;
+			}
+
+		}
+
+	}
+
 }
 
