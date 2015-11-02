@@ -9,7 +9,6 @@ footer {
 
 .info {
 	margin: 43px auto 0 auto;
-	width: 43%;
 	text-align: center;
 }
 
@@ -37,6 +36,10 @@ footer {
 			display: inline-block;
 			list-style-type: none;
 			padding: 0 13px;
+
+			a:hover {
+				color: darken($light-color, 15%);
+			}
 
 			&:last-child {
 				border: 0;

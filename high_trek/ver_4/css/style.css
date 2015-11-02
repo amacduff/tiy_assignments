@@ -293,7 +293,6 @@ footer {
 
 .info {
   margin: 43px auto 0 auto;
-  width: 43%;
   text-align: center;
 }
 
@@ -321,6 +320,9 @@ footer {
   display: inline-block;
   list-style-type: none;
   padding: 0 13px;
+}
+.bottomnav ul li a:hover {
+  color: #d9d9d9;
 }
 .bottomnav ul li:last-child {
   border: 0;
