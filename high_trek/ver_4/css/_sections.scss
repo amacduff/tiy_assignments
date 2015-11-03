@@ -175,6 +175,11 @@ h1#lost {
 	padding-top: 0.75rem;
 }
 
+h1#tech.article-link,
+h1#lost.article-link {
+	max-width: 100%;
+}
+
 #tech {
 	background: $primary-color url("../img/san_francisco.jpg") no-repeat center center;
 

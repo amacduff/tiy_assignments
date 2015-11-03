@@ -47,6 +47,10 @@
 		padding: 14px 40px 0 0;
 	}
 
+	.contact {
+		width: 60%;
+	}
+
 }
 
 @media screen and (min-width: 800px) {
@@ -183,6 +187,21 @@
 	.topnav,
 	.content {
 		width: 60%;
+	}
+
+	.contact {
+		width: 87.174349%;
+	}
+
+	form {
+		float: left;
+		padding-right: 10%;
+		width: 50%;
+	}
+
+	.map {
+		float: left;
+		width: 50%;
 	}
 
 	.footer-wrapper {
