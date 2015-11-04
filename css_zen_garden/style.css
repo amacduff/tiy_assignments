@@ -96,10 +96,6 @@ a:hover {
   background-color: #fff;
 }
 
-abbr {
-  border-bottom: 1px dotted #333;
-}
-
 ::-moz-selection {
   background: #f0e2c2;
   color: #333;
@@ -186,9 +182,6 @@ h3 {
 .preamble p:last-child {
   padding-top: 0;
   padding-bottom: 4rem;
-}
-.preamble abbr {
-  border-bottom: 1px dotted #fff;
 }
 
 .explanation {
@@ -281,9 +274,6 @@ h3 {
 .requirements a:hover {
   background-color: #ff310a;
 }
-.requirements abbr {
-  border-bottom: 1px dotted #fff;
-}
 
 .requirements:before {
   content: "";
@@ -366,12 +356,13 @@ nav ul li {
 
 a.design-name {
   color: #ff310a;
-  display: block;
+  display: inline;
   font-weight: 700;
   text-transform: uppercase;
 }
-a.design-name:hover {
-  background: none;
+a.design-name:after {
+  content: "\A";
+  white-space: pre;
 }
 
 .designer-name {
@@ -480,14 +471,7 @@ a.design-name:hover {
   footer a {
     display: block;
     margin-right: 0;
-    padding: 1rem 0;
-  }
-  footer a:hover {
-    background: none;
-  }
-  footer a:hover:after {
-    color: #ff310a;
-    content: " ★";
+    padding: 1rem;
   }
 
   .sidebar h3 {

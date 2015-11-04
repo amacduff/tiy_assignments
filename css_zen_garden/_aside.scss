@@ -59,14 +59,15 @@ nav {
 
 a.design-name {
 	color: $color-primary;
-	display: block;
+	display: inline;
 	font: {
 		weight: 700;
 	}
 	text-transform: uppercase;
 
-	&:hover {
-		background: none;
+	&:after {
+		content: "\A";
+		white-space: pre;
 	}
 
 }

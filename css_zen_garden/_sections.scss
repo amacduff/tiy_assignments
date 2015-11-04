@@ -52,10 +52,6 @@
 
 	}
 
-	abbr {
-		border-bottom: 1px dotted $color-text-accent;
-	}
-
 }
 
 .explanation {
@@ -177,10 +173,6 @@
 		&:hover {
 			background-color: $color-primary;
 		}
-	}
-
-	abbr {
-		border-bottom: 1px dotted $color-text-accent;
 	}
 
 }

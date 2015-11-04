@@ -148,17 +148,17 @@
 		a {
 			display: block;
 			margin-right: 0;
-			padding: 1rem 0;
+			padding: 1rem;
 
-			&:hover {
-				background: none;
+			// &:hover {
+			// 	background: none;
 
-				&:after {
-					color: $color-primary;
-					content: " ★";
-				}
+			// 	&:after {
+			// 		color: $color-primary;
+			// 		content: " ★";
+			// 	}
 
-			}
+			// }
 
 		}
 
