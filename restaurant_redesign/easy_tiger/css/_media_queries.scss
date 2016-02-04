@@ -6,6 +6,10 @@
 		width: 60%;
 	}
 
+	.container {
+		margin: 4rem auto 1rem auto;
+	}
+
 }
 
 @media screen and (min-width: 860px) {
@@ -34,10 +38,15 @@
 		width: 45%;
 	}
 
+	#map {
+		margin: 1rem 0 4rem 0;
+	}
+
 	footer p {
 		float: left;
 		line-height: 2em;
 		padding-left: 7.5%;
+		padding-top: 0;
 	}
 
 	footer ul {

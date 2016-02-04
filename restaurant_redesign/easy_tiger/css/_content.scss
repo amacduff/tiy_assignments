@@ -54,6 +54,7 @@
 }
 
 #location {
+	margin-bottom: 2rem;
 	padding-top: 1rem;
 
 	p {
@@ -73,14 +74,14 @@
 #map {
 	background: url(../img/map.png) center center no-repeat;
 	height: 22rem;
-	margin-top: 1rem;
+	margin-bottom: 3rem;
 }
 
 
 // Menu
 
 .container {
-	margin: 4rem auto 1rem auto;
+	margin: 2rem auto 0 auto;
 	overflow: hidden;
 	width: 85%;
 }

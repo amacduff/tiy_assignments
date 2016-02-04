@@ -149,6 +149,7 @@ nav a.selected {
 }
 
 #location {
+  margin-bottom: 2rem;
   padding-top: 1rem;
 }
 #location p {
@@ -163,11 +164,11 @@ nav a.selected {
 #map {
   background: url(../img/map.png) center center no-repeat;
   height: 22rem;
-  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .container {
-  margin: 4rem auto 1rem auto;
+  margin: 2rem auto 0 auto;
   overflow: hidden;
   width: 85%;
 }
@@ -288,6 +289,9 @@ footer {
   padding: 2rem 0;
   text-align: center;
 }
+footer p {
+  padding-top: 1rem;
+}
 footer ul li {
   display: inline;
   padding: 0 0.5rem;
@@ -304,6 +308,10 @@ footer ul li img:hover {
 @media screen and (min-width: 600px) {
   main {
     width: 60%;
+  }
+
+  .container {
+    margin: 4rem auto 1rem auto;
   }
 }
 @media screen and (min-width: 860px) {
@@ -334,10 +342,15 @@ footer ul li img:hover {
     width: 45%;
   }
 
+  #map {
+    margin: 1rem 0 4rem 0;
+  }
+
   footer p {
     float: left;
     line-height: 2em;
     padding-left: 7.5%;
+    padding-top: 0;
   }
 
   footer ul {
