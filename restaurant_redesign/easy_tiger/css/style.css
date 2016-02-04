@@ -112,18 +112,11 @@ nav a.selected {
 
 /* Content */
 .hours {
-  font-size: 24px;
-  font-size: 1.5rem;
   font-weight: 700;
 }
 .hours span {
-  font-size: 80px;
-  font-size: 5rem;
-  font-family: "Alegreya", serif;
-}
-
-#seven {
-  letter-spacing: -0.1em;
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .products p {
@@ -136,7 +129,6 @@ nav a.selected {
 .products ul li {
   font-size: 18.4px;
   font-size: 1.15rem;
-  padding: 0 1rem;
   text-transform: uppercase;
 }
 
@@ -304,11 +296,6 @@ footer ul li img:hover {
   main {
     width: 60%;
   }
-
-  .products {
-    margin: 0 auto;
-    width: 50%;
-  }
 }
 @media screen and (min-width: 860px) {
   h1 {
@@ -347,10 +334,6 @@ footer ul li img:hover {
   footer ul {
     float: right;
     padding-right: 2rem;
-  }
-
-  .products {
-    width: 76%;
   }
 }
 @media screen and (min-width: 1120px) {

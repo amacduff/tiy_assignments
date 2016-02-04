@@ -4,21 +4,15 @@
 
 .hours {
 	font: {
-		@include fntz(1.5);
 		weight: 700;
 	}
 
 	span {
 		font: {
-			@include fntz(5);
-			family: $font-headings;
+			@include fntz(1.5);
 		}
 	}
 
-}
-
-#seven {
-	letter-spacing: -0.1em;
 }
 
 .products {
@@ -35,7 +29,6 @@
 			font: {
 				@include fntz(1.15);
 			}
-			padding: 0 1rem;
 			text-transform: uppercase;
 		}
 
