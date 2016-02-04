@@ -18,9 +18,12 @@
 
 .products {
 
+	font: {
+		@include fntz(1.15);
+	}
+
 	p {
 		font: {
-			@include fntz(1.15);
 			style: italic;
 			weight: 700;
 		}
@@ -31,9 +34,6 @@
 		margin-top: 0.75rem;
 
 		li {
-			font: {
-				@include fntz(1.15);
-			}
 			line-height: 1.6em;
 		}
 
@@ -44,6 +44,9 @@
 #about {
 
 	p {
+		font: {
+			@include fntz(1.15);
+		}
 		line-height: 1.6em;
 	}
 
