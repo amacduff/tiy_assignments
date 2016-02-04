@@ -148,6 +148,9 @@ nav a.selected {
   margin-bottom: 0;
 }
 
+#location {
+  padding-top: 1rem;
+}
 #location p {
   font-size: 24px;
   font-size: 1.5rem;
@@ -159,7 +162,8 @@ nav a.selected {
 
 #map {
   background: url(../img/map.png) center center no-repeat;
-  height: 23rem;
+  height: 22rem;
+  margin-top: 1rem;
 }
 
 .container {

@@ -54,6 +54,7 @@
 }
 
 #location {
+	padding-top: 1rem;
 
 	p {
 		font: {
@@ -71,7 +72,8 @@
 
 #map {
 	background: url(../img/map.png) center center no-repeat;
-	height: 23rem;
+	height: 22rem;
+	margin-top: 1rem;
 }
 
 
