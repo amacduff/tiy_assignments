@@ -6,6 +6,7 @@
 	font: {
 		weight: 700;
 	}
+	padding-top: 1rem;
 
 	span {
 		font: {
@@ -18,18 +19,22 @@
 .products {
 
 	p {
-		margin-top: 1rem;
+		font: {
+			@include fntz(1.15);
+			style: italic;
+			weight: 700;
+		}
+		margin: 2rem 0 1rem 0;
 	}
 
 	ul {
-		line-height: 1.6em;
-		margin-top: 0.5rem;
+		margin-top: 0.75rem;
 
 		li {
 			font: {
 				@include fntz(1.15);
 			}
-			text-transform: uppercase;
+			line-height: 1.6em;
 		}
 
 	}

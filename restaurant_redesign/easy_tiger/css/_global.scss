@@ -5,6 +5,7 @@ body {
 		family: $font-main;
 		color: $color-text;
 	}
+	-webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -32,4 +33,3 @@ img {
 em {
 	font-style: italic;
 }
-

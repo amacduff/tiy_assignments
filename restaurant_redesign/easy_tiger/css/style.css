@@ -3,6 +3,7 @@
 body {
   font-family: "Lato", sans-serif;
   font-color: #2e2c2c;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -113,6 +114,7 @@ nav a.selected {
 /* Content */
 .hours {
   font-weight: 700;
+  padding-top: 1rem;
 }
 .hours span {
   font-size: 24px;
@@ -120,16 +122,19 @@ nav a.selected {
 }
 
 .products p {
-  margin-top: 1rem;
+  font-size: 18.4px;
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 700;
+  margin: 2rem 0 1rem 0;
 }
 .products ul {
-  line-height: 1.6em;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
 }
 .products ul li {
   font-size: 18.4px;
   font-size: 1.15rem;
-  text-transform: uppercase;
+  line-height: 1.6em;
 }
 
 #about p {
