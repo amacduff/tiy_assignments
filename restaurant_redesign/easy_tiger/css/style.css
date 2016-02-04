@@ -114,12 +114,10 @@ nav a.selected {
 
 /* Content */
 .hours {
-  font-weight: 700;
-  padding-top: 1rem;
-}
-.hours span {
   font-size: 24px;
   font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 1rem;
 }
 
 .products {
@@ -148,13 +146,6 @@ nav a.selected {
   font-size: 18.4px;
   font-size: 1.15rem;
   line-height: 1.6em;
-  text-transform: uppercase;
-}
-#location p:nth-child(2) {
-  font-size: 48px;
-  font-size: 3rem;
-  font-family: "Alegreya", serif;
-  font-weight: 700;
 }
 #location p a {
   font-size: 32px;

@@ -4,13 +4,14 @@
 
 .hours {
 	font: {
+		@include fntz(1.5);
 		weight: 700;
 	}
 	padding-top: 1rem;
 
 	span {
 		font: {
-			@include fntz(1.5);
+
 		}
 	}
 
@@ -59,15 +60,6 @@
 			@include fntz(1.15);
 		}
 		line-height: 1.6em;
-		text-transform: uppercase;
-
-		&:nth-child(2) {
-			font: {
-				@include fntz(3);
-				family: $font-headings;
-				weight: 700;
-			}
-		}
 
 		a {
 			font: {
