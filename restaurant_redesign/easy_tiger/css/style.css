@@ -143,16 +143,12 @@ nav a.selected {
 }
 
 #location p {
-  font-size: 18.4px;
-  font-size: 1.15rem;
+  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.6em;
 }
-#location p a {
-  font-size: 32px;
-  font-size: 2rem;
-  font-family: "Alegreya", serif;
+#location p span {
   font-weight: 700;
-  line-height: 1.6em;
 }
 
 #map {

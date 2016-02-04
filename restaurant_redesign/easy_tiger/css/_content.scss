@@ -57,17 +57,12 @@
 
 	p {
 		font: {
-			@include fntz(1.15);
+			@include fntz(1.5);
 		}
 		line-height: 1.6em;
 
-		a {
-			font: {
-				@include fntz (2);
-				family: $font-headings;
-				weight: 700;
-			}
-			line-height: 1.6em;
+		span {
+			font-weight: 700;
 		}
 
 	}
