@@ -7,7 +7,6 @@
 		@include fntz(1.5);
 		weight: 700;
 	}
-	text-align: center;
 
 	span {
 		font: {
@@ -26,16 +25,13 @@
 
 	p {
 		margin-top: 1rem;
-		text-align: center;
 	}
 
 	ul {
 		line-height: 1.6em;
 		margin-top: 0.5rem;
-		text-align: center;
 
 		li {
-			display: inline-block;
 			font: {
 				@include fntz(1.15);
 			}
@@ -62,7 +58,6 @@
 			@include fntz(1.15);
 		}
 		line-height: 1.6em;
-		text-align: center;
 		text-transform: uppercase;
 
 		&:nth-child(2) {
@@ -207,4 +202,3 @@ aside {
 #breads {
 	clear: both;
 }
-

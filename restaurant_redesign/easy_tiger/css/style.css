@@ -115,7 +115,6 @@ nav a.selected {
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 700;
-  text-align: center;
 }
 .hours span {
   font-size: 80px;
@@ -129,15 +128,12 @@ nav a.selected {
 
 .products p {
   margin-top: 1rem;
-  text-align: center;
 }
 .products ul {
   line-height: 1.6em;
   margin-top: 0.5rem;
-  text-align: center;
 }
 .products ul li {
-  display: inline-block;
   font-size: 18.4px;
   font-size: 1.15rem;
   padding: 0 1rem;
@@ -152,7 +148,6 @@ nav a.selected {
   font-size: 18.4px;
   font-size: 1.15rem;
   line-height: 1.6em;
-  text-align: center;
   text-transform: uppercase;
 }
 #location p:nth-child(2) {
@@ -291,9 +286,6 @@ footer {
   overflow: hidden;
   padding: 2rem 0;
   text-align: center;
-}
-footer ul {
-  padding-bottom: 1rem;
 }
 footer ul li {
   display: inline;
