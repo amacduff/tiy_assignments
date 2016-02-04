@@ -48,7 +48,7 @@ h1 {
   font-size: 44px;
   font-size: 2.75rem;
   font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
@@ -144,6 +144,10 @@ nav a.selected {
   padding-top: 1rem;
 }
 
+#about1 {
+  margin-bottom: 0;
+}
+
 #location p {
   font-size: 24px;
   font-size: 1.5rem;
@@ -159,7 +163,7 @@ nav a.selected {
 }
 
 .container {
-  margin: 2rem auto;
+  margin: 4rem auto 1rem auto;
   overflow: hidden;
   width: 85%;
 }
@@ -178,7 +182,7 @@ nav a.selected {
 }
 
 section {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   overflow: hidden;
 }
 
@@ -199,7 +203,7 @@ dt {
 .subtext,
 dt,
 dd {
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
 
 dt,
@@ -224,6 +228,10 @@ dd {
   padding-bottom: 0;
 }
 
+#soda {
+  margin-bottom: 3rem;
+}
+
 .special-desc {
   float: left;
   text-align: center;
@@ -242,7 +250,7 @@ dd {
 
 aside {
   background-color: #f5f3ec;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   padding: 3rem 0;
 }
 
@@ -325,12 +333,12 @@ footer ul li img:hover {
   footer p {
     float: left;
     line-height: 2em;
-    padding-left: 2rem;
+    padding-left: 7.5%;
   }
 
   footer ul {
     float: right;
-    padding-right: 2rem;
+    padding-right: 7.5%;
   }
 }
 @media screen and (min-width: 1120px) {
