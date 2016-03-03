@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Alegreya:900,700|Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
 /* Global Styles */
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "News Cycle", sans-serif;
   font-color: #2e2c2c;
   -webkit-font-smoothing: antialiased;
 }
@@ -44,7 +44,7 @@ em {
 /* Headings */
 h1 {
   color: #f6ad22;
-  font-family: "Alegreya", serif;
+  font-family: "News Cycle", sans-serif;
   font-size: 44px;
   font-size: 2.75rem;
   font-weight: 700;
@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Alegreya", serif;
+  font-family: "News Cycle", sans-serif;
   font-size: 28px;
   font-size: 1.75rem;
   font-weight: 700;
@@ -63,7 +63,7 @@ h2 {
 h3 {
   border-bottom: 2px solid #e3decb;
   color: #6b804f;
-  font-family: "Alegreya", serif;
+  font-family: "News Cycle", sans-serif;
   font-size: 28px;
   font-size: 1.75rem;
   margin-bottom: 1rem;
@@ -271,9 +271,9 @@ aside {
   width: 30%;
 }
 .special-price span {
-  font-size: 144px;
-  font-size: 9rem;
-  line-height: 0.45em;
+  font-size: 120px;
+  font-size: 7.5rem;
+  line-height: 0.75em;
   vertical-align: top;
 }
 

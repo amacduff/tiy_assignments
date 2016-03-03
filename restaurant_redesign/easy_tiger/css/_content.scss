@@ -186,9 +186,9 @@ aside {
 
 	span {
 		font: {
-			@include fntz(9);
+			@include fntz(7.5);
 		}
-		line-height: 0.45em;
+		line-height: 0.75em;
 		vertical-align: top;
 	}
 
